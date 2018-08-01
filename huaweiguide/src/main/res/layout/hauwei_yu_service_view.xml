@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/imagelayut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bg_blue"/>
+
+        <ImageView
+            android:id="@+id/image_yun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_cloud"/>
+
+        <TextView
+            android:id="@+id/yun_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/image"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:text="@string/yun_service"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yun_service"
+            android:lineSpacingMultiplier="1.1"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/divider2"
+            android:text="@string/yun_service_tips"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/begin_yun_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:layout_below="@+id/text"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/light_blue"
+            android:visibility="gone"
+            android:text="@string/begin_start_yun_service"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/no_begin_yun_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/begin_yun_service"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/light_blue"
+            android:visibility="gone"
+            android:text="@string/not_begin_start_yun_service"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/button_bar_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/button_bar" />
+    </FrameLayout>
+</RelativeLayout>

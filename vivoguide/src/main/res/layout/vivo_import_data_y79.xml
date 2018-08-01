@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vivo_y79_backgroup_color"
+    >
+
+
+    <include
+        android:id="@+id/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_toolbar" />
+
+    <View
+        android:id="@+id/vivo_improt_data_title_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/common_title"
+        android:background="#dedede"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/import_data_desc_y79"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="@string/vivo_import_data_y79_desc"
+        android:layout_below="@id/vivo_improt_data_title_line"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:textColor="#000000"
+        />
+
+    <ImageView
+        android:id="@+id/vivo_import_data_easyshare_y79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/import_data_desc_y79"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/easyshare_picture_y79" />
+
+
+    <include layout="@layout/common_bottom_jump_view_y79" />
+
+</RelativeLayout>

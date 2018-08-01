@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gn_sw_layout_white_color">#ffffff</color>
+    <color name="gn_sw_layout_green_button_disabled_text_color">#33000000</color>
+    <color name="gn_sw_layout_orange_color">#ff9000</color>
+    <color name="time_selected_color">#ff9000</color>
+    <color name="time_unselected_color">#666666</color>
+    <color name="gn_sw_main_background_color">#fbfbfb</color>
+    <color name="gn_sw_layout_wifi_title_color">#ff9000</color>
+    <color name="gn_button_disabled_bg_color">#20808080</color>
+    <color name="gn_button_defalut_bg_color">#82c16a</color>
+    <color name="gn_sw_layout_content_textColor">#b7b7b7</color>
+    <color name="gn_sw_layout_complete_content_title_textColor">#444444</color>
+    <color name="webview_transparent">#00000000</color>
+    <color name="webview_text_num_gray">#333</color>
+    <color name="webview_dialog_title_blue">#9cccf7</color>
+    <color name="gn_sw_layout_wifi_net_hint_text_color">#66000000</color>
+    <color name="gn_sw_layout_complete_first_title_color">#cc000000</color>
+    <color name="gn_sw_layout_complete_text_color">#99000000</color>
+    <color name="gn_sw_layout_account_register_success_back">#10000000</color>
+    <color name="gn_sw_layout_account_register_account">#cc000000</color>
+    <color name="gn_sw_layout_account_register_account_hint">#66000000</color>
+
+    <color name="course_list_selector_pressed">#44b7b7b7</color>
+
+
+
+    <color name="white">#ffffffff</color>
+
+    <color name="gn_sw_layout_title_text_color">#99000000</color>
+    <color name="gn_button_rippe_color">#1f000000</color>
+    <color name="gn_sw_layout_step_button_disable_stroke_color">#26828282</color>
+    <color name="gn_button_defalut_bg_color1">#f5f5f5</color>
+    <color name="gn_sw_layout_step_button_stroke_color">#4d828282</color>
+    <color name="gn_sw_layout_list_textColor">#cc000000</color>
+    <color name="gn_sw_layout_listview_divider_color">#33828282</color>
+    <color name="gn_sw_layout_black_color">#cc000000</color>
+    <color name="gn_sw_layout_wifi_item_content_text_color">#66000000</color>
+    <color name="gray_light2">#9a9a9a</color>
+    <color name="language_bg_press">#818181</color>
+    <color name="black">#ff000000</color>
+    <color name="black_light">#666666</color>
+    <color name="light_blue">#007dff</color>
+    <color name="light_blue_20">#33007dff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_light">#ff818181</color>
+    <color name="gn_button_welcome_bg_color">#ee9647</color>
+    <color name="gn_sw_layout_contract_content_text_color">#99000000</color>
+    <color name="gn_sw_layout_contracr_content_title_textColor">#cc000000</color>
+    <color name="gn_sw_layout_contract_content_title_color">#cc000000</color>
+    <color name="gn_sw_layout_account_text_color">#99000000</color>
+    <color name="divider_color">#1a000000</color>
+</resources>

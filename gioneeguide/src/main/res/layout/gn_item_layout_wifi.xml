@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gn_sw_layout_wifi_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="56dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <ImageView
+        android:id="@+id/gn_sw_layout_wifi_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gn_sw_wifi_signal_0_light" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/gn_sw_layout_wifi_item_image"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+
+        <TextView
+            android:id="@+id/gn_sw_layout_wifi_item_wifiname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/gn_sw_layout_complete_content_title_textColor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/gn_sw_layout_wifi_item_wifistate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/gn_sw_layout_wifi_item_wifiname"
+            android:text="@string/gn_sw_string_wificonnect"
+            android:textColor="@color/gn_sw_layout_content_textColor"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+</RelativeLayout>

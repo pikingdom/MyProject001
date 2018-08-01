@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 语言选择界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffbfbfb">
+
+    <ImageView
+        android:id="@+id/gn_sw_layout_language_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:scaleType="center"
+        android:src="@drawable/gn_sw_layout_language_logo_src" />
+
+    <TextView
+        android:id="@+id/gn_sw_layout_language_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/gn_sw_string_welcome"
+        android:textColor="@color/gn_sw_layout_content_textColor"
+        android:textSize="18sp"
+        android:layout_below="@+id/gn_sw_layout_language_logo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/gn_sw_layout_language_nextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/gn_sw_string_next"
+        android:textColor="@color/gn_sw_layout_white_color"
+        android:background="@drawable/gn_green_btn"/>
+
+    <ListView
+        android:id="@+id/gn_sw_layout_language_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@drawable/gn_course_list_selector"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:layout_above="@+id/gn_sw_layout_language_nextbutton"
+        android:layout_below="@+id/gn_sw_layout_language_welcome"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

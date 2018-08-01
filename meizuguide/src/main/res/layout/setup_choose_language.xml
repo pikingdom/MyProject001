@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        layout="@layout/setup_logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/include3" />
+
+            <ListView
+                android:id="@+id/mLanguageListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1.0"
+                android:divider="@drawable/mz_list_divider"
+                android:gravity="center"
+                android:listSelector="@drawable/list_item_selector"
+                android:layout_below="@+id/include3" />
+
+
+    <include
+        layout="@layout/bottom_step_menu"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+</RelativeLayout>

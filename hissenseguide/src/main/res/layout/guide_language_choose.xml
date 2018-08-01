@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffafafa">
+
+    <TextView
+        android:id="@+id/guide_language_choose_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="欢迎使用"
+        android:textColor="#ff343434"
+        android:textSize="22sp" />
+
+    <include layout="@layout/common_bottom_layout"/>
+
+    <ListView
+        android:id="@+id/locale_list"
+        android:layout_above="@id/agreement_and_terms_next_textview_layout"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/guide_language_choose_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/layout_margin_16"
+        android:layout_marginRight="@dimen/layout_margin_16"
+        android:layout_weight="1.0"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/button_bar_background"
+        android:drawSelectorOnTop="false"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:listSelector="@color/button_bar_background"
+        android:scrollbars="none"
+        android:smoothScrollbar="true" />
+
+</RelativeLayout>

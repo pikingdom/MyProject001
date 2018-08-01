@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/statusBarColor">
+
+    <RelativeLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_toolbar"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar"
+        android:background="#dddddd"/>
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/tips1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/add_user_slipbtn"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:text="@string/add_user_experience"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.wifi.vivoguide.commonview.SlipButtonView
+            android:id="@+id/add_user_slipbtn"
+            android:layout_width="68dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tips1" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/text_color_small"
+        android:text="@string/add_user_experience_tips"
+        android:layout_below="@id/layout"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:layout_below="@+id/txt2">
+
+        <TextView
+            android:id="@+id/tips_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/service_slipbtn"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:text="@string/vivo_select_service_locationservice"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.wifi.vivoguide.commonview.SlipButtonView
+            android:id="@+id/service_slipbtn"
+            android:layout_width="68dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tips_service" />
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/text_color_small"
+        android:text="@string/vivo_select_service_locationservice_tip"
+        android:layout_below="@id/layout_service"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp"/>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:layout_below="@+id/txt_service">
+
+        <TextView
+            android:id="@+id/tips2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/auto_slipbtn"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:text="@string/vivo_select_service_zn_update"
+            android:textColor="#1b1b1b"
+            android:textSize="16sp" />
+
+        <com.wifi.vivoguide.commonview.SlipButtonView
+            android:id="@+id/auto_slipbtn"
+            android:layout_width="68dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tips2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/text_color_small"
+        android:text="@string/vivo_select_service_zn_update_tip"
+        android:layout_below="@id/layout2"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp"/>
+
+    <include layout="@layout/common_bottom_jump_view_y79" />
+</RelativeLayout>

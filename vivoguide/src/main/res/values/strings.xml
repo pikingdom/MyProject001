@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">WifiManager</string>
+
+    <!-- 通用按钮 -->
+    <string name="common_button_confirm">OK</string>
+    <string name="common_button_cancel">Cancel</string>
+    <string name="common_button_apply">Aplication</string>
+    <string name="common_button_return">Back</string>
+    <string name="common_button_save">Save</string>
+
+    <!-- 一键设置wifi-->
+    <string name="wifi_wlan">WLAN</string>
+    <string name="wifi_static">Static IP</string>
+    <string name="wifi_dynamics">Dynamic</string>
+    <string name="identity">Identity</string>
+    <string name="wifi_passwd">Password</string>
+    <string name="wifi_ip_address">IP Address</string>
+    <string name="wifi_gateway_address">Gataway</string>
+    <string name="wifi_netmask_address">NetMask</string>
+    <string name="wifi_prefix_length">Network prefix length</string>
+    <string name="wifi_dns1_address">DNS1</string>
+    <string name="wifi_dns2_address">DNS2</string>
+    <string name="wifi_show_passwd">Show password</string>
+    <string name="wifi_info_edit_suc">Success modify</string>
+    <string name="wifi_rssi_level_perfect">More Strong</string>
+    <string name="wifi_rssi_level_good">Strong</string>
+    <string name="wifi_rssi_level_normal">General</string>
+    <string name="wifi_rssi_level_bad">weak</string>
+    <string name="wifi_rssi_level_nothing">no</string>
+
+    <string name="wifi_keymgmt_802">Protected by 802.1x</string>
+    <string name="wifi_keymgmt_wpa2_use_wps">Protected by WPA2 (use wps)</string>
+    <string name="wifi_keymgmt_wpa">Protected by WPA</string>
+    <string name="wifi_keymgmt_wep">Protected by WEP</string>
+    <string name="wifi_keymgmt_wpa2">Protected by WPA2</string>
+    <string name="wifi_keymgmt_wpa_wpa2">Protected by WPA2/WPA</string>
+
+    <string name="wifi_keymgmt_none">No encryption</string>
+    <string name="wifi_connect">Connect</string>
+    <string name="wifi_point_type0">Saved，</string>
+    <string name="wifi_point_type1">Connected，Speed：%1$s</string>
+    <string name="wifi_point_type2">%1$s，Signal%2$s</string>
+    <string name="wifi_point_type3">Status：Connected\n%1$s\nSpeed：%2$s\n Signal strength：%3$s\nIP address：%4$s</string>
+    <string name="wifi_point_type4">Status：Not Connected\n%1$s\n Signal strength：%2$s</string>
+    <string name="wifi_static_ip_text">Static IP</string>
+    <string name="wifi_dyn_ip_text">dynamic IP</string>
+    <string name="wifi_set_static_title">Static IP settings</string>
+    <string name="wifi_ip_faild">Please enter valid %1$s</string>
+    <string name="myphone_setting_name">Set</string>
+
+    <!--vivo-->
+    <string name="vivo_welcome_use">欢迎使用</string>
+    <string-array name="language_array">
+        <item>简体中文</item>
+        <item>English</item>
+        <item>繁體中文(臺灣)</item>
+        <item>繁體中文(香港)</item>
+    </string-array>
+
+    <string name="choose_wifi">Select network</string>
+    <!--<string name="doing_scan"><Data><![CDATA[<font color="#676c6b">正在扫描...</font> ]]></Data></string> -->
+    <string name="doing_scan">Scanning...</string>
+    <string name="jump_step">Skip this step</string>
+    <string name="forgot_wifi">Ignore the network</string>
+    <string name="cancel_wifi">Cancel</string>
+    <string name="connect_wifi">Connect</string>
+    <string name="wifi_connected_info">Status info：Connected \n Speed：%1$s\n Safety：%2$s\nIP address：%3$s</string>
+    <string name="connected_to_wifi_name">Connected %1$s</string>
+    <string name="login_vivo_account">Log into you vivo account</string>
+
+    <string name="login_account_tips">After logging into your vivo account, you can use cloud services, view the phone, and enjoy better experiences and services in iTheme, the app store and the game center.</string>
+    <string name="set_vivo">vivo settings</string>
+    <string name="choose_service">Select services</string>
+    <string name="begin_use_vivo">Use Now</string>
+    <string name="congratulation">Congratulations!</string>
+    <string name="finish_set_tips">Your phone has been set up \n EasyShare is recommended for transferring data from the old phone</string>
+    <string name="start_interchange">Enable EasyShare</string>
+    <string name="add_user_experience">Join the user experience improvement plan</string>
+    <string name="add_user_experience_tips">Recording your usage of this product will help improve the product and associated services, thereby offering you an even better usage experience. The whole procedure is in compliance with the privacy policy at all times.</string>
+    <string name="auto_download_update_package">Auto download upgrade package</string>
+    <string name="wifi_download">Auto download when in a WLAN network</string>
+    <string name="ignore_wifi_text">Ignore the network</string>
+    <string name="connect_wifi_text">Connect to the network</string>
+    <string name="modify_pwd_text">change Password</string>
+    <string name="save">Save</string>
+    <string name="nextStep">Next</string>
+
+    <string name="weizhi_service">Service Location</string>
+    <string name="weizhi_service_tips">\"Service Location\" allow \"Map\" and other applications using the wireless network to collect and use your location information, colleagues may generate network traffic。</string>
+    <!--y79a-->
+    <string name="vivo_language_choose">Select language</string>
+    <string name="vivo_service_des">Service Note</string>
+    <string name="vivo_service_des_tip">For you to enjoy a better and more professional user experience, some system apps require the Internet, location services or other functions, including:\n\n
+                                        1.Automatic time synchronization, auto update check, location services, standby screen, electronic warranty, app installation, and Lockscreen Poster require the Internet.\n\n
+                                        2.vivo services and device management require the Internet and location services.
+    </string>
+
+    <string name="vivo_agree">Agree</string>
+    <string name="vivo_un_agree">Disagree</string>
+    <string name="vivo_advance_set">Advanced setting</string>
+    <string name="jump_step_y79a">Skip this step</string>
+
+    <string name="vivo_select_service_locationservice">Location</string>
+    <string name="vivo_select_service_locationservice_tip">Allow Map, vivo services, Device Manager and other apps to use your location information.</string>
+
+    <string name="vivo_select_service_zn_update">Smart Upgrade</string>
+    <string name="vivo_select_service_zn_update_tip">Smart Upgrade will select an appropriate time to automatically download upgrade patches and carry out intelligent installation over WLAN.</string>
+    <string name="vivo_choose_service_dialog_title">Tips</string>
+    <string name="vivo_choose_service_dialog_desc">After disabling Smart Upgrade, you need to manually confirm when upgrading to a new version to complete the upgrade. Are you sure you want to disable?</string>
+
+
+    <!-- y79 -->
+    <string name="vivo_service_des_tip_y79">For you to enjoy a better and more professional user experience, some system apps require the Internet, location services or other functions, including:\n\n
+                                        1. Automatic time synchronization, auto update check, location services, standby screen, electronic warranty, app installation, Lockscreen Poster service, the User Experience Improvement Program, and Smart Engine require the Internet.\n\n
+                                        2.vivo services and device management require the Internet and location services.\n\n
+                                        3.Easy Now can help you more efficiently manage your travels, living, and work, providing you with smart management, reminders,and other related services.\n\n
+                                        When you use Easy Now, we will collect your device information (including IMEI, device model, version, Wi-Fi, Bluetooth messages) and your personal information (including your location, SMS, vivo account, app messages, and app usage behavior information).\n\n
+                                        We will provide services like smart reminders and smart planning based on the collected information and data, as well as analyze your habits and preferences to provide you a personalized user experience.\n\n
+                                        In order to run certain functions and to provide you with more quality services, we may provide some of the above information, after it has been processed, to third-party service providers to allow them to provide you services. This process requires Internet.\n\n
+                                        If you are not using Easy Now, you can turn it off via the Easy Now switch.\n\n
+
+    </string>
+
+    <string name="vivo_wifi_title_y79">Set network</string>
+    <string name="vivo_wifi_jump">Skip</string>
+    <string name="vivo_import_data_y79">Import data</string>
+    <string name="vivo_import_data_y79_import">Import</string>
+    <string name="vivo_import_data_y79_desc">Use EasyShare\'s one-key device transfer function to quickly import data (contacts, messages, photos, etc.) from your old phone to this phone data-free.</string>
+    <string name="vivo_finish_welcom_use">Welcome</string>
+    <string name="vivo_finish_start_use">Use Now</string>
+
+</resources>
+
+

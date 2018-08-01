@@ -1,0 +1,1 @@
+include ':app', ':vivoguide', ':gioneeguide', ':zteguide', ':huaweiguide', ':xiaomiguide', ':hissenseguide', ":core", ":oppoguide", "setupwizard_lib", "meizuguide"

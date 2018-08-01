@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gn_sw_main_background_color">
+
+    <TextView
+        android:id="@+id/gn_sw_layout_language_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:layout_marginTop="@dimen/gn_sw_layout_title_marginTop"
+        android:drawableLeft="@drawable/gn_sw_title_icon"
+        android:drawablePadding="@dimen/gn_sw_layout_title_textview_margin"
+        android:drawableRight="@drawable/gn_sw_title_icon"
+        android:paddingLeft="@dimen/gn_sw_layout_title_margin"
+        android:text="@string/gn_sw_string_language_title"
+        android:textColor="@color/gn_sw_layout_title_text_color"
+        android:textSize="@dimen/gn_sw_layout_title_textsize" />
+
+    <Button
+        android:id="@+id/gn_sw_layout_language_nextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/gn_sw_layout_button_margin_bottom"
+        android:layout_marginLeft="@dimen/gn_sw_layout_button_margin"
+        android:layout_marginRight="@dimen/gn_sw_layout_button_margin"
+        android:background="@drawable/gn_btn_default_bg_ripple"
+        android:text="@string/gn_sw_string_next1"
+        android:textColor="@color/gn_sw_layout_orange_color"
+        android:textSize="@dimen/gn_sw_layout_step_textsize" />
+
+    <ListView
+        android:id="@+id/gn_sw_layout_language_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gn_sw_layout_language_bar"
+        android:layout_above="@id/gn_sw_layout_language_nextbutton"
+        android:layout_marginTop="@dimen/gn_sw_layout_language_listview_marginTop"
+        android:divider="#E2E2E2"
+        android:dividerHeight="@dimen/gn_sw_layout_listdivider_height" />
+</RelativeLayout>

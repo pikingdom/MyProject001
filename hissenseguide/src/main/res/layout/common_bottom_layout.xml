@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/agreement_and_terms_next_textview_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="@dimen/guide_next_textview_margin_bottom"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/guide_activity_back_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="38dp"
+        android:paddingRight="38dp"
+        android:text="@string/guide_back"
+        android:textColor="@color/guide_text_color"
+        android:textSize="@dimen/guide_next_textview_text_size" />
+
+    <TextView
+        android:id="@+id/guide_activity_next_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="38dp"
+        android:paddingRight="38dp"
+        android:text="@string/guide_agree_and_next"
+        android:textColor="@color/dark_blue"
+        android:textSize="@dimen/guide_next_textview_text_size" />
+</RelativeLayout>

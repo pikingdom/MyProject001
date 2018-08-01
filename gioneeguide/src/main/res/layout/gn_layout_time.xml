@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gn_sw_main_background_color">
+
+    <com.gionee.setupwizard.widget.TimeView
+        android:id="@+id/gn_sw_layout_datetime_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/gn_sw_layout_datetime_guide_next"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/gn_green_btn"
+        android:text="@string/gn_sw_string_next"
+        android:textColor="@color/gn_sw_layout_white_color" />
+
+    <!-- 联网自动获取时间 -->
+    <RelativeLayout
+        android:layout_above="@+id/layout_time_timeswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/gn_sw_string_datetime_auto_get_time"
+            android:textColor="#ff444444"
+            android:textSize="15sp"/>
+        <CheckBox
+            android:id="@+id/layout_time_checkbox"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:button="@drawable/gionee_common_checkbox_selector" />
+    </RelativeLayout>
+
+    <!-- 时间选择控件-->
+    <com.gionee.setupwizard.widget.TimeSwitcher
+        android:id="@+id/layout_time_timeswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_above="@+id/gn_sw_layout_datetime_guide_next"/>
+</RelativeLayout>

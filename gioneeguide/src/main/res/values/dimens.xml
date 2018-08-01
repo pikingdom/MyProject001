@@ -1,0 +1,56 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="gn_sw_layout_title_textsize">28dp</dimen>
+    <dimen name="gn_sw_layout_title_margin">20dp</dimen>
+    <dimen name="gn_sw_layout_title_textview_margin">10dp</dimen>
+    <dimen name="gn_sw_layout_title_marginTop">73dp</dimen>
+    <dimen name="gn_sw_layout_button_margin_bottom">12dp</dimen>
+    <dimen name="gn_sw_layout_button_margin">16dp</dimen>
+    <dimen name="gn_control_corner_material">4dp</dimen>
+    <dimen name="gn_button_padding_vertical_material">4dp</dimen>
+    <dimen name="gn_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="gn_sw_layout_step_textsize">16dp</dimen>
+    <dimen name="gn_sw_layout_language_listview_marginTop">20dp</dimen>
+    <dimen name="gn_sw_layout_listdivider_height">0.67dp</dimen>
+    <dimen name="gn_sw_layout_input_listview_item_height">56dp</dimen>
+    <dimen name="gn_sw_layout_listview_item_padding_right">14dp</dimen>
+    <dimen name="gn_sw_layout_input_listview_item_textSize">16sp</dimen>
+    <dimen name="gn_sw_layout_wifi_margin_left">20sp</dimen>
+    <dimen name="gn_sw_layout_wifi_margin_right">14dp</dimen>
+    <dimen name="gn_sw_layout_wifi_textSize">14sp</dimen>
+    <dimen name="gn_sw_layout_list_margin">20dp</dimen>
+    <dimen name="gn_sw_layout_button_margin_gap">4dp</dimen>
+    <dimen name="gn_sw_layout_wifi_switchbar_margintop">20dp</dimen>
+    <dimen name="gn_sw_layout_wifi_switch_textSize">16sp</dimen>
+    <dimen name="gn_sw_layout_wifi_item_title_textSize">16sp</dimen>
+    <dimen name="gn_sw_layout_wifi_item_content_textSize">12sp</dimen>
+    <dimen name="gn_sw_ota_guide_button_marginBottom">12dp</dimen>
+    <dimen name="gn_sw_ota_guide_button_marginTop">40dp</dimen>
+    <dimen name="gn_sw_ota_guide_button_margin">16dp</dimen>
+    <dimen name="gn_sw_ota_guide_button_text_size">16sp</dimen>
+    <dimen name="gn_sw_layout_contract_content_margintop">16dp</dimen>
+    <dimen name="gn_sw_layout_contract_content_marginleft">20dp</dimen>
+    <dimen name="gn_sw_layout_contract_content_marginright">14dp</dimen>
+    <dimen name="gn_sw_layout_divider_margintop">15dp</dimen>
+    <dimen name="gn_sw_layout_contract_content_text_size">12sp</dimen>
+    <dimen name="gn_sw_layout_contract_content_title_text_size">16sp</dimen>
+    <dimen name="gn_sw_layout_contract_checkbox_marginBottom">20dp</dimen>
+    <dimen name="gn_sw_layout_contract_checkbox_margintop">10dp</dimen>
+    <dimen name="gn_sw_layout_contract_checkbox_marginleft">16dp</dimen>
+    <dimen name="gn_sw_layout_contract_checkbox_text_size">12sp</dimen>
+    <dimen name="gn_sw_layout_account_image_margin">40dp</dimen>
+    <dimen name="gn_sw_layout_account_image_marginTop">54dp</dimen>
+    <dimen name="gn_sw_layout_account_hint_margin_top">20dp</dimen>
+    <dimen name="gn_sw_layout_common_content_textSize">12sp</dimen>
+    <dimen name="gn_sw_account_setting_later_margin">8dp</dimen>
+    <dimen name="gn_sw_account_setting_later_margin_right">14dp</dimen>
+    <dimen name="gn_sw_layout_account_setting_later_textSize">12sp</dimen>
+    <dimen name="gn_sw_account_register_margin_top">10dp</dimen>
+    <dimen name="gn_sw_layout_account_notify_margin_top">10dp</dimen>
+    <dimen name="gn_sw_account_login_margin_top">8dp</dimen>
+
+
+</resources>

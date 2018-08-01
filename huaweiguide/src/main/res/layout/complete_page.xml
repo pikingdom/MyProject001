@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffcfcfc"
+    android:paddingLeft="@dimen/layout_padding_24"
+    android:paddingRight="@dimen/layout_padding_24">
+
+    <FrameLayout
+        android:id="@+id/logo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_margin_134">
+
+        <ImageView
+            android:id="@+id/anim_image"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:background="@drawable/loading_29"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/layout_margin_62"
+        android:gravity="center"
+        android:paddingLeft="@dimen/layout_padding_44"
+        android:paddingRight="@dimen/layout_padding_44"
+        android:text="@string/get_started_format"
+        android:background="@drawable/hw_start_button_bg"
+        android:textColor="@color/light_blue"
+        android:textSize="15sp" />
+</RelativeLayout>

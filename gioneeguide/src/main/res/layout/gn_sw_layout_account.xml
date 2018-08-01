@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/account_main"
+    android:background="@color/gn_sw_main_background_color">
+
+    <TextView
+        android:id="@+id/gn_sw_layout_account_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:layout_marginTop="@dimen/gn_sw_layout_title_marginTop"
+        android:drawableLeft="@drawable/gn_sw_title_icon"
+        android:drawablePadding="@dimen/gn_sw_layout_title_textview_margin"
+        android:drawableRight="@drawable/gn_sw_title_icon"
+        android:paddingLeft="@dimen/gn_sw_layout_title_margin"
+        android:text="@string/gn_sw_string_account_title"
+        android:textColor="@color/gn_sw_layout_title_text_color"
+        android:textSize="@dimen/gn_sw_layout_title_textsize" />
+
+    <ImageView
+        android:id="@+id/gn_sw_layout_account_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gn_sw_layout_account_bar"
+        android:layout_marginLeft="@dimen/gn_sw_layout_account_image_margin"
+        android:layout_marginRight="@dimen/gn_sw_layout_account_image_margin"
+        android:layout_marginTop="@dimen/gn_sw_layout_account_image_marginTop"
+        android:scaleType="fitXY"
+        android:src="@drawable/gn_sw_layout_account_img" />
+
+    <TextView
+        android:id="@+id/gn_sw_layout_account_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gn_sw_layout_account_image"
+        android:layout_marginLeft="@dimen/gn_sw_layout_account_image_margin"
+        android:layout_marginRight="@dimen/gn_sw_layout_account_image_margin"
+        android:layout_marginTop="@dimen/gn_sw_layout_account_hint_margin_top"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/gn_sw_string_account_hint"
+        android:textColor="@color/gn_sw_layout_account_text_color"
+        android:textSize="@dimen/gn_sw_layout_common_content_textSize" />
+
+    <TextView
+        android:id="@+id/gn_sw_layout_account_jump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/gn_sw_account_setting_later_margin"
+        android:layout_marginRight="@dimen/gn_sw_account_setting_later_margin_right"
+        android:layout_marginTop="@dimen/gn_sw_account_setting_later_margin"
+        android:drawablePadding="4dp"
+        android:drawableRight="@drawable/gn_sw_layout_account_next"
+        android:paddingBottom="@dimen/gn_sw_account_setting_later_margin"
+        android:paddingTop="@dimen/gn_sw_account_setting_later_margin"
+        android:text="@string/gn_sw_string_account_setting_later"
+        android:textColor="@color/gn_sw_layout_account_register_account_hint"
+        android:textSize="@dimen/gn_sw_layout_account_setting_later_textSize" />
+
+    <Button
+        android:id="@+id/gn_sw_layout_account_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/gn_sw_layout_account_jump"
+        android:layout_marginLeft="@dimen/gn_sw_layout_button_margin"
+        android:layout_marginRight="@dimen/gn_sw_layout_button_margin"
+        android:layout_marginTop="@dimen/gn_sw_account_login_margin_top"
+        android:background="@drawable/gn_btn_default_bg_ripple"
+        android:text="@string/gn_sw_string_account_login"
+        android:textColor="@color/gn_sw_layout_black_color"
+        android:textSize="@dimen/gn_sw_layout_step_textsize" />
+
+    <Button
+        android:id="@+id/gn_sw_layout_account_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/gn_sw_layout_account_login_btn"
+        android:layout_marginLeft="@dimen/gn_sw_layout_button_margin"
+        android:layout_marginRight="@dimen/gn_sw_layout_button_margin"
+        android:layout_marginTop="@dimen/gn_sw_account_login_margin_top"
+        android:background="@drawable/gn_btn_default_bg_ripple"
+        android:text="@string/gn_sw_string_account_register_btn"
+        android:textColor="@color/gn_sw_layout_orange_color"
+        android:textSize="@dimen/gn_sw_layout_step_textsize" />
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/gn_sw_layout_account_register"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/gn_sw_layout_account_login_btn"-->
+        <!--android:layout_marginLeft="@dimen/gn_sw_layout_button_margin"-->
+        <!--android:layout_marginRight="@dimen/gn_sw_layout_button_margin"-->
+        <!--android:layout_marginTop="@dimen/gn_sw_account_register_margin_top"-->
+        <!--android:background="@drawable/gn_btn_default_bg_ripple"-->
+        <!--android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/gn_sw_layout_account_register_btn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"-->
+            <!--android:text="@string/gn_sw_string_account_register_btn"-->
+            <!--android:textColor="@color/gn_sw_layout_orange_color"-->
+            <!--android:textSize="@dimen/gn_sw_layout_step_textsize" />-->
+
+        <!--&lt;!&ndash;<amigo.widget.AmigoProgressBar&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/gn_sw_layout_accout_progress_bar"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="UNKNOWN_DATA_0x7f070021"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="UNKNOWN_DATA_0x7f070021"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerVertical="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginRight="8dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_toLeftOf="@+id/gn_sw_layout_account_register_btn"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:visibility="gone" />&ndash;&gt;-->
+    <!--</RelativeLayout>-->
+
+    <TextView
+        android:id="@+id/gn_sw_layout_account_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gn_sw_layout_account_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/gn_sw_layout_account_notify_margin_top"
+        android:drawableLeft="@drawable/gn_sw_layout_account_register_hint"
+        android:drawablePadding="4dp"
+        android:text="@string/gn_sw_string_account_register_send_mms_notice1"
+        android:textColor="@color/gn_sw_layout_account_register_account_hint"
+        android:textSize="@dimen/gn_sw_layout_common_content_textSize" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SetupWizardCollection.iml" filepath="$PROJECT_DIR$/SetupWizardCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gioneeguide/gioneeguide.iml" filepath="$PROJECT_DIR$/gioneeguide/gioneeguide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hissenseguide/hissenseguide.iml" filepath="$PROJECT_DIR$/hissenseguide/hissenseguide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huaweiguide/huaweiguide.iml" filepath="$PROJECT_DIR$/huaweiguide/huaweiguide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meizuguide/meizuguide.iml" filepath="$PROJECT_DIR$/meizuguide/meizuguide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oppoguide/oppoguide.iml" filepath="$PROJECT_DIR$/oppoguide/oppoguide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/setupwizard_lib/setupwizard_lib.iml" filepath="$PROJECT_DIR$/setupwizard_lib/setupwizard_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vivoguide/vivoguide.iml" filepath="$PROJECT_DIR$/vivoguide/vivoguide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaomiguide/xiaomiguide.iml" filepath="$PROJECT_DIR$/xiaomiguide/xiaomiguide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zteguide/zteguide.iml" filepath="$PROJECT_DIR$/zteguide/zteguide.iml" />
+    </modules>
+  </component>
+</project>

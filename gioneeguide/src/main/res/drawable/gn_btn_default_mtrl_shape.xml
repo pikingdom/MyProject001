@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/gn_control_corner_material" />
+        <solid android:color="@color/gn_button_defalut_bg_color1" />
+        <stroke
+            android:width="0.67dp"
+            android:color="@color/gn_sw_layout_step_button_stroke_color" />
+        <padding
+            android:bottom="@dimen/gn_button_padding_vertical_material"
+            android:left="@dimen/gn_button_padding_horizontal_material"
+            android:right="@dimen/gn_button_padding_horizontal_material"
+            android:top="@dimen/gn_button_padding_vertical_material" />
+    </shape>
+</inset>

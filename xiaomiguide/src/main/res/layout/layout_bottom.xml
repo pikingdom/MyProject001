@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bottom_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_select_bg"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="返回"
+            android:textSize="14sp"
+            android:textColor="#737373" />
+
+
+        <TextView
+            android:id="@+id/bottom_center"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_select_bg"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="重新检测"
+            android:visibility="gone"
+            android:textSize="15sp"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:id="@+id/bottom_next"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:background="@drawable/btn_select_bg"
+            android:text="仍然继续"
+            android:textSize="14sp"
+            android:textColor="#009dff"  />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomtest_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bottom_layout"
+        android:padding="10dp" />
+
+</RelativeLayout>

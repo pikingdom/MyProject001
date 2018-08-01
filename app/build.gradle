@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 14
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "setupwizard.collection.felink.com.setupwizard.app"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories {
+        flatDir {
+            dirs 'libs','../setupwizard_lib/libs'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //TODO 添加各种机型的设置向导aar包,aar包放到libs底下，然后像这样写:compile(name:'virtuallib-release', ext:'aar')
+    compile project(':setupwizard_lib')
+}

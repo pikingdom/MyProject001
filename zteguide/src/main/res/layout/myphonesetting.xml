@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:id="@+id/title"-->
+        <!--style="@style/Title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="UNKNOWN_DATA_0x9401"-->
+        <!--android:text="@string/text_datause_title" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="UNKNOWN_DATA_0x1"-->
+        <!--android:layout_weight="1.0"-->
+        <!--android:background="@drawable/common_bg"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="6dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginTop="6dp">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/device_name_edit"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="UNKNOWN_DATA_0x3201"-->
+                <!--android:layout_marginBottom="14dp"-->
+                <!--android:layout_marginLeft="14dp"-->
+                <!--android:layout_marginTop="14dp"-->
+                <!--android:background="@drawable/textfield_background"-->
+                <!--android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"-->
+                <!--android:maxLength="50"-->
+                <!--android:padding="14dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:textColor="#ff333333"-->
+                <!--android:textSize="16sp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignLeft="@+id/device_name_edit"-->
+                <!--android:layout_below="@+id/device_name_edit"-->
+                <!--android:layout_marginTop="6dp"-->
+                <!--android:text="@string/device_name_summary"-->
+                <!--android:textAppearance="?unknown_attr_ref: 1010042"-->
+                <!--android:textColor="#ff888888" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="UNKNOWN_DATA_0x66666731"-->
+            <!--android:layout_marginLeft="0dp"-->
+            <!--android:layout_marginRight="0dp"-->
+            <!--android:layout_marginTop="6dp"-->
+            <!--android:background="@drawable/list_divider_holo_light" />-->
+
+        <!--<ListView-->
+            <!--android:id="0x102000a"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="0dp"-->
+            <!--android:layout_marginRight="0dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:cacheColorHint="0x106000d"-->
+            <!--android:clipToPadding="false"-->
+            <!--android:drawSelectorOnTop="false"-->
+            <!--android:listPreferredItemHeight="48dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/user_exp_announce"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="@string/user_exp_zte_declare"-->
+            <!--android:textAppearance="?unknown_attr_ref: 1010042"-->
+            <!--android:visibility="gone" />-->
+    <!--</LinearLayout>-->
+</LinearLayout>

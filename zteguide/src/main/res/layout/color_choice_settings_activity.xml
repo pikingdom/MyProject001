@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:background="#5758a5">
+
+        <TextView
+            android:id="@+id/lable1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="130dp"
+            android:text="@string/color_choice"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lable2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/color_choice_description"
+            android:textColor="#7fffffff"
+            android:textSize="13sp"
+            android:layout_below="@+id/lable1"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <com.zteguidedemo.widget.AutoBgButton
+                android:id="@+id/Amethyst"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1.0"
+                android:background="@color/Amethyst"
+                android:gravity="center"
+                android:text="@string/color1"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <com.zteguidedemo.widget.AutoBgButton
+                android:id="@+id/Fresh_Peach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:background="@color/Fresh_Peach"
+                android:gravity="center"
+                android:text="@string/color2"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <com.zteguidedemo.widget.AutoBgButton
+                android:id="@+id/Aqua_Green"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:background="@color/Aqua_Green"
+                android:gravity="center"
+                android:text="@string/color3"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <com.zteguidedemo.widget.AutoBgButton
+                android:id="@+id/Tiger_lily"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:background="@color/Tiger_lily"
+                android:gravity="center"
+                android:text="@string/color4"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <com.zteguidedemo.widget.AutoBgButton
+                android:id="@+id/Ocean_Blue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:background="@color/Ocean_Blue"
+                android:gravity="center"
+                android:text="@string/color5"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <include layout="@layout/bottom_buttons" />
+</LinearLayout>

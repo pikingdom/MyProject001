@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/app_authority_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:textColor="@color/black"
+        android:text="@string/app_permissions_title"
+        android:textSize="15sp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/app_authority_title"
+        android:background="#e3e3e3"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.1"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="18dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:text="@string/app_permissions_content_internal"
+        android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:lineSpacingMultiplier="1.1"
+            android:layout_marginTop="8dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:text="@string/app_permissions_content_internals"
+            android:textSize="13sp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/check__layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativelayout1"
+        android:layout_marginTop="16dip"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:button="@drawable/huawei_checkbox_app_authority_selector"
+            android:checked="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="@dimen/layout_margin_16"
+            android:layout_marginTop="@dimen/layout_margin_16"
+            android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android:singleLine="false"
+            android:text="@string/agree_format"
+            android:textColor="@color/black_100"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/nextstep_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableRight="@drawable/icon_right"
+            android:drawablePadding="6dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/light_blue"
+            android:text="@string/next_format"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/choose_language_rl"
+    android:background="@color/button_bar_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/logo_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/layout_margin_24"
+        android:paddingBottom="@dimen/layout_margin_24"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/language_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:layout_gravity="center"
+                   android:background="@drawable/ic_title_bg"  />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:layout_gravity="center"
+                   android:background="@drawable/icon_language"  />
+
+           </FrameLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/choose_language"
+                android:textColor="@color/black_100"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@id/logo_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color"
+        />
+
+    <LinearLayout
+        android:id="@+id/button_bar_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color" />
+
+        <TextView
+            android:id="@+id/emergency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/layout_margin_18"
+            android:gravity="center"
+            android:paddingBottom="@dimen/layout_padding_8"
+            android:paddingTop="@dimen/layout_padding_16"
+            android:text="@string/emergency_call_format"
+            android:textColor="@drawable/control_button_text"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/vision_settings_format"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="@dimen/layout_padding_2"
+            android:paddingTop="@dimen/layout_padding_16"
+            android:text="@string/vision_settings_format"
+            android:textColor="@drawable/control_button_text"
+            android:textSize="13sp"
+            android:visibility="gone"/>
+
+        <include layout="@layout/button_bar" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_above="@id/button_bar_ll"
+        >
+
+        <ListView
+            android:id="@+id/locale_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_weight="1.0"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/button_bar_background"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:listSelector="@color/button_bar_background"
+            android:scrollbars="none"
+            android:smoothScrollbar="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

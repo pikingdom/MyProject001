@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\setup_choose_language.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\bundles\\debug\\res\\layout\\setup_choose_language.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\setup_logo_layout.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\bundles\\debug\\res\\layout\\setup_logo_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\setup_warning.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\bundles\\debug\\res\\layout\\setup_warning.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_language.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\bundles\\debug\\res\\layout\\item_language.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bottom_step_menu.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\bundles\\debug\\res\\layout\\bottom_step_menu.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\setup_choose_service.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\bundles\\debug\\res\\layout\\setup_choose_service.xml"
+    }
+]

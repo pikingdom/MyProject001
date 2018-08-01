@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff5f5f5"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="30dp">
+
+    <TextView
+        android:id="@+id/language_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:text="@string/language_welcome"
+        android:textColor="@color/top_text_color"
+        android:textSize="@dimen/top_text_size" />
+
+    <ListView
+        android:id="@+id/wheel_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/language_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/go_on"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/divider_margin_top"
+        android:divider="@color/account_divide_color"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/go_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/go_on_text_bottom_margin"
+        android:padding="@dimen/go_on_padding_touch"
+        android:text="@string/go_on"
+        android:textColor="@color/color_green"
+        android:textSize="@dimen/go_on_text_size" />
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Setup Wizard</string>
+    <string name="gn_sw_string_next">Next</string>
+    <string name="gn_sw_string_jump">Skip</string>
+    <string name="gn_sw_string_date_format">HH:mm yyyy.MM.dd EEEE</string>
+    <string name="gn_sw_string_datetime_tab_format">yyyy-MM-dd</string>
+    <string name="gn_sw_string_welcome">Welcome</string>
+    <string name="gn_sw_string_amigoos">amigoOS</string>
+    <string name="gn_sw_string_wifi_connect_btn">Connect</string>
+    <string name="gn_sw_string_wificonnect">Connected</string>
+    <string name="gn_sw_string_wifi_choiceview_text">Select WLAN</string>
+    <string name="gn_sw_string_wifi_showpassword">Show password</string>
+    <string name="gn_sw_string_wifi_not_connect">Can\'t connect wifi</string>
+    <string name="gn_sw_strinf_wifi_net_hint">Kindly Reminder:In your use mobile phones,android system,DRM Protection storage content and Google Service will cause a little data flow which is can\'t avoid,it has been did strictly tested and will not affect your Operator tariff.</string>
+    <string name="gn_sw_string_datetime_auto_get_time">Update time automatically in network</string>
+    <string name="gn_sw_string_account_login_hint">You\'ve logged in.Please remember your account info.</string>
+    <string name="gn_sw_string_account_get_warranty_btn">Get Warranty Card</string>
+    <string name="gn_sw_string_account_register_btn">One key registration</string>
+    <string name="gn_sw_string_account_registering_btn">Registering amigo account</string>
+    <string name="gn_sw_string_account_already_registed">Existing logined account</string>
+    <string name="gn_sw_string_account_register_send_mms_notice">Will send a verification message</string>
+    <string name="gn_sw_string_account_ignore">Skip</string>
+    <string name="gn_sw_string_account_login_title">Login account hint</string>
+    <string name="gn_sw_string_account_login_content">You will can not enjoy gionee users\'services,are you sure to skip account login?</string>
+    <string name="gn_sw_string_account_login_positive_button">sure</string>
+    <string name="gn_sw_string_account_login_negative_button">cancel</string>
+    <string name="gn_sw_string_account_registing_notice">Registration application has been sent,will notice you after succeed</string>
+    <string name="gn_sw_string_register_account_not_ready">Gionee Account application is not ready, please install the latest one</string>
+    <string name="gn_sw_string_sim_card_select_item">SIM card</string>
+    <string name="gn_sw_string_register_notification_account">Account:</string>
+    <string name="gn_sw_string_register_notification_password">Password:</string>
+    <string name="gn_sw_string_register_account_fail">Registration fail</string>
+    <string name="gn_sw_string_register_fail_account_exist">Phone number has been registered,please login directly</string>
+    <string name="gn_sw_string_register_fail_network_error">Network is poor,registration fail,please try later</string>
+    <string name="gn_sw_string_register_fail_network_disconnect">Network disconnected,registration fail, please check the network and try again</string>
+    <string name="gn_sw_string_register_fail_no_send_sms">Because the SMS was not sent successfully,fail to register</string>
+    <string name="gn_sw_string_register_fail_response_error">Registration fails,network abnormally response,please check the network and try again</string>
+    <string name="gn_sw_string_register_fail_status_error">Registration fails,server is not normal</string>
+    <string name="gn_sw_string_register_fail_http_code_error">Registration fails, server has wrong HTTP response code</string>
+    <string name="gn_sw_string_register_fail_no_receive_sms">Server didn\'t receive the SMS,registration fails,please try again</string>
+    <string name="gn_sw_string_register_fail_too_frequently">Registered too frequently, please try again later</string>
+    <string name="gn_sw_string_notification_register_success">Congratulations,register successfully</string>
+    <string name="gn_sw_string_notification_register_fail">Account didn\'t register successfully,please try again</string>
+    <string name="gn_sw_string_gionee_service_register">You can enter the member center and continue to register</string>
+    <string name="gn_sw_string_network_disconnect">Now there isn\'t the connnected network</string>
+    <string name="gn_sw_string_register_no_sim_error">SIM card isn\'t detected,please insert and retry</string>
+    <string name="gn_sw_string_register_sim_pin_puk_network_lock_error">SIM card pin/puk/network code was locked,please unlock and try again</string>
+    <string name="gn_sw_string_register_airplane_error">Can\'t register in airplane mode,please close it and retry</string>
+    <string name="gn_sw_string_register_sim_state_error">SIM card is abnormal</string>
+    <string name="gn_sw_string_register_select_sim_card_title">Select SIM card</string>
+    <string name="gn_sw_string_account_slide_text">Easily enjoy cloud services,amigo community,gamezone,and other services</string>
+    <string name="gn_sw_string_account_slide_title_text">amigo account</string>
+    <string name="gn_sw_string_account_slide_text_warranty">Login amigo account,fill account information,you will get 12 months warranty.</string>
+    <string name="gn_sw_string_account_slide_title_text_warranty">Extend warranty</string>
+    <string name="gn_sw_string_account_slide_text_2">Quickly backup contacts,SMS,call history.It is convenient and safe.Nerver lose</string>
+    <string name="gn_sw_string_account_slide_title_text_2">Cloud storage</string>
+    <string name="gn_sw_string_account_slide_text_3">Phone guard against theft.Locate remotely.Fast retrieve phone</string>
+    <string name="gn_sw_string_account_slide_title_text_3">Phone guard against theft</string>
+    <string name="gn_sw_string_account_slide_ignore_warranty">You will get 12 months warranty If you fill information completely in the member center.</string>
+    <string name="gn_sw_string_complete_btn_text">Immediately experience</string>
+    <string name="gn_sw_string_complete_logo_text_title">Congratulations</string>
+    <string name="gn_sw_string_complete_logo_text_content">Complete to setup you phone\nplease enjoy amigo</string>
+    <string name="gn_sw_string_user_feed">User experience program</string>
+    <string name="gn_sw_string_complete_web_loading">Loading...</string>
+    <string name="gn_sw_string_security_service">Security update services</string>
+    <string name="gn_sw_string_user_text">We will record your use situation of product function,it will help us to improve our product and services.The entire process will follow the privacy policy.</string>
+    <string name="gn_sw_string_system_notification">System notification</string>
+    <string name="gn_sw_string_system_notification_text">In order to receive the notification of system timely, it will get the message automatically in WLAN or mobile net,so it needs the permission of read and write system file,the imei of the phone and the position, and it will cause a little data folw in WLAN or Mobile net.The entire process will follow the privacy policy.</string>
+    <string name="gn_sw_string_system_upgrade">System Upgrade</string>
+    <string name="gn_se_string_system_upgrade_text">In order to ensure the timely system update and system security,it will check and download the latest system update packages in WLAN and charging status,so it needs to connect the network and to read and write the external memory,it will cause some data folw in WLAN.The entire process will follow the privacy policy.</string>
+    <string name="gn_sw_string_others">Terminal Manage Statement</string>
+    <string name="gn_sw_string_others_text">In order to supply better service for you, your device will be send some info about your devices or your usage in WLAN or mobile net to your seclect operators. The operators promise that these infos will be analysed only to impove service quality or supply custom service and technology, these infos will not be revealed to the outside world as identifiable personal information.</string>
+    <string name="gn_sw_string_complete_warranty">Extended warranty application has been successfully submitted\n application results in 6 hours after your user Center Locator</string>
+    <string name="gn_sw_string_user_experience_title">User experience project</string>
+    <string name="user_experience_note_1"> Gionee user experience improvement program </string>
+    <string name="user_experience_note_2"> —You will support us in improving product and service </string>
+    <string name="user_experience_note_3">1、Participating this program will not affect your application to our product and Service:\nParticipating this program will not disturb or stop your application (For example pop up window, email and tele survey etc).\nThe product and service quality will be the same no matter whether you take part in this program or not.\n </string>
+    <string name="user_experience_note_4">2、The below message will be sent to us if you choose to participate this program:\nSystem information: Hardware and system platform data etc; Product application: Most frequent used application, Most popular features etc; Error and collapse data: Error description and frequency etc.\nUser experience improvement program will only collect Gionee relative product and service data.\nBut because some software might influence the application of Gionee product and service (For example software clash, safety leak etc ), we might collect the information of these software as well.\nWe respect your privacy, for more information, please refer our term of privacy policy.\nTo remind you, web traffic might cost as data deliver to server. Please be aware that we must stay control of the traffic cost.\n </string>
+    <string name="user_experience_note_5">3、This program is completely anonymous:\nWe will not collect any notable personal data. The data we collect is anonymous and it will only be in used by our product team.\n </string>
+    <string name="user_experience_note_6">4、This program is completely volunteer:\nYou are able to choose whether to participate or not when you do registration; Also, you can take part in or leave the program any time as you wish. Operation route: Gionee service or member center, enter into after sales service, click menu button or setting button, to turn on/off the user experience improvement program\nIf you would not like to participate this program or it is violate your company or organization’s strategy, please do not take part in this program.\n </string>
+    <string name="user_experience_note_7">Privacy strategy\n Gionee Communication Equipment Ltd concentrate on the protection of user privacy.\nThe aim of this privacy strategy is to state that we might collect data when you visit or use Gionee mobile phone product and relative service, how would we use these data, whether will we share it to third party and your right of judging the application and revision of this information.\n </string>
+    <string name="user_experience_note_8">Information that relative to you\nWe might require you to fill in mobile number or email address when you register; The data will mainly been applied in account management, such as password reminder and verification code receiving. Also, it might be applied in message notification , for instance, to tell you the release of product or service that you might be interested in.\nDuring the application, you might need to provide some specialized personal information , these data will be used by Gionee Communication Equipment Ltd to provide you relative service. For example, you might be required to provide your city information, so that the browser could provide relative weather prediction and so on. The data that has been collected will not relative to your personal issue.\nRather than the information you provide when you connect the server, we will only collect information relative to product and service. But because some software might influence the application of Gionee product and service (For example software clash, safety leak etc ). We might collect the information of these software . These information will only be collected under your authorization.\n </string>
+    <string name="user_experience_note_9">Reveal and Open recourse\nWe will not share your personal information to any third party person or organization when you use Gionee service, such as name, address, email address and mobile phone number. At the same time, as the above stated, we might share the statistical result with our cooperation partner.\n\nThe change of Gionee Communication Equipment Ltd strategy of privacy\nIf we need to change the strategy of privacy, relative change with be shown in this page for your notification of what information will we collect, how would we use it and whether to share with third party.\nIf you have any question or doubt with this, please contact us. Contact number: 400-779-6666. </string>
+    <string name="gn_sw_string_permission_hint_dialog_title">Warm prompt</string>
+    <string name="gn_sw_string_permission_access_fine_location_need">to use wifi should allow to access this device\'s location</string>
+    <string name="gn_sw_string_permission_hint_dialog_positive_button">OK</string>
+    <string name="gn_sw_string_permission_hint_dialog_negative_button">Cancel</string>
+    <string name="gn_sw_string_one_key_register">One key register need permission:</string>
+    <string name="gn_sw_string_one_key_register_permission_deny">One key register failed by permission deny</string>
+    <string name="gn_sw_string_get_wifi_list_failed">get wifi list failed by permission deny!</string>
+    <string name="gn_sw_string_go_on">,go on?</string>
+    <string name="gn_sw_string_permission_read_phone_state">manage phone calls</string>
+    <string name="gn_sw_string_permission_write_external_storage">read files</string>
+    <string name="gn_sw_string_permission_send_sms">send messages</string>
+
+
+
+
+    <!--金立s10bl手机-->
+    <string name="gn_sw_string_language_title">选择语言</string>
+    <string name="gn_sw_string_next1">继续</string>
+    <string name="gn_sw_string_select_wifi">选择WLAN</string>
+    <string name="gn_sw_string_wifi_switch">已开启</string>
+    <string name="gn_sw_string_last_step">上一步</string>
+    <string name="wifi_rssi_level_perfect">强</string>
+    <string name="wifi_rssi_level_good">较强</string>
+    <string name="wifi_rssi_level_normal">一般</string>
+    <string name="wifi_rssi_level_bad">弱</string>
+    <string name="wifi_rssi_level_nothing">无</string>
+    <string name="wifi_wpa">WPA PSK</string>
+    <string name="wifi_wep">WEP PSK</string>
+    <string name="wifi_wpa2">WPA2 PSK</string>
+    <string name="wifi_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_wpa2_use_wps">WPA2 PSK WPS</string>
+    <string name="wifi_802">802.1x EAP</string>
+    <string name="wifi_none">NONE </string>
+    <string name="connected">已连接</string>
+    <string name="identity_erroe">验证身份出现问题</string>
+    <string name="scaning">正在扫描...</string>
+    <string name="saved">已保存</string>
+    <string name="connect_wlan">连接互联网</string>
+    <string name="identity">身份</string>
+    <string name="wifi_passwd">密码</string>
+    <string name="cancel_wifi">取消</string>
+    <string name="connect_wifi">连接</string>
+    <string name="gn_sw_string_complete_btn_text1">开始使用</string>
+    <string name="gn_sw_string_contract_title">使用条款</string>
+    <string name="gn_sw_string_system_manager_text">为保证系统的安全和稳定，系统管家及其组件和服务将会在WLAN下自动更新病毒库 、垃圾库，并联网进行病毒查杀、支付安全检测等，需要读取外部存储数据，产生一定的WLAN流量或数据流量；同时，智能睡眠省电模式 会自动关闭移动网络、WLAN、蓝牙开关，上述数据使用遵循隐私政策。</string>
+    <string name="gn_sw_string_system_manager">系统管家</string>
+    <string name="gn_sw_string_user_feed1">加入用户体验改善计划</string>
+    <string name="gn_sw_string_contract_checkbox">我已阅读并同意上述使用条款</string>
+    <string name="gn_sw_string_account_title">注册金立会员</string>
+    <string name="gn_sw_string_account_hint">注册帐号，领取金立会员卡，即可登录用户中心享受金立会员特权，如：免费清洁，免费迁移资料，手机延保等。</string>
+    <string name="gn_sw_string_account_setting_later">稍候设置</string>
+    <string name="gn_sw_string_account_register_send_mms_notice1">注册中将发送一条验证短信</string>
+    <string name="gn_sw_string_account_login">登录</string>
+    <string name="gn_sw_string_account_dialog_tip">在使用过程中需要获取以下权限:\n连接网络，读取/修改/发送信息，调用WLAN开关，读取外部存储数据\n是否继续使用?</string>
+    <string name="gn_sw_string_term_of_user_dialog_tip">进入系统后，你还可以在桌面-用户中心APP中领取金立会员卡，享受金立会员特权。确定跳过吗？</string>
+
+    <string name="account_dialog_title_accout_title">欢迎使用amigo账号</string>
+    <string name="account_dialog_title_accout_cancle">退出</string>
+    <string name="account_dialog_title_accout_submit">继续</string>
+    <string name="account_dialog_title_wxts">温馨提示</string>
+    <string name="account_dialog_title_wxts_cancle">取消</string>
+    <string name="account_dialog_title_wxts_submit">确定</string>
+    <string name="account_dialog_title_wxts_no_find_sim">未检测到手机卡，插入手机卡后重试</string>
+    <string name="show_password">显示密码</string>
+    <string name="welcom_user_gionee_phone">欢迎使用金立手机</string>
+    <string name="welcom_user_gionee_phone_desc">科技 悦生活</string>
+    <string name="amigo_account_gionee_service">amigo账号，畅享金立服务</string>
+    <string name="amigo_account_gionee_service_desc">amigo账号享受手机延保服务\n还可以直接登录云服务,游戏大厅，因公商店，主题公园等软件服务</string>
+
+    <string name="privacy_protocol_title">隐私政策</string>
+    <string name="privacy_protocol_desc">您可以通过多种不同的方式使用我们的服务，例如登录金立官 网购买金立产品、使用金立产品、服务等。如果您与我们分 享信息（例如，通过创建一个金立帐户），我们就能为您提供 更好的服务，如显示相关程度更高的产品更新和广告、帮助 您与他人联系或者更轻松快捷地与他人分享内容等。基于此目 的，我们将向您解释我们对信息的收集和使用方式，以及您 可采用什么方式来保护自己的隐私杈。\n\n
+我们的隐私政策包括了以下几个方面的问题\n
+1)	我们收集哪些信息。\n
+2)	我们如何收集和使用信息。\n
+3)	您如何选择性提供这些信息，以及如何访问和更新这些信息。\n
+4)	信息的分享、安全以及隐私政策的适用范围和修订 \n终端管理声明：\n
+为了绐您提供更好的服务，您的设备可能会通过WLAN或数据 网络绐选定的服务运营商定时发送您以及本设备的相关信息。 运营商承诺仅将相关信息以分析方式，用于改进服务质量或提 供自定义服务或技术，不会以任何可识别您个人身份的形式向 外界披露相关信息。
+</string>
+    <string name="user_contract_title">用户协议</string>
+    <string name="user_contract_desc">感谢使用amigoOS，为了让您体验更好的amigoOS服务，请 您务必先仔细阅读本使用声明：\n\n
+1、	当您使用金立手机时，您的电话号码和您的金立手机中某 些独有的标识符会被发送绐金立，以让您获取与纸质保修卡 等效的电子保卡杈限，通过电子保卡您可在全国金立所有服务 网点享受更真诚、更便捷、更专业的服务。注册过程中，需 要接入网络、使用与读取短信以及联系信息。在任何时候，您 的信息均依照金立的《隐私政策》处理，该政策可在"设置> 关于手机> 法律信息”中浏览。\n
+2、	以下系统服务需要进行联网、定位等操作，包括：\n
+1)	系统数据更新服务、系统更新、消息推送服务、语音服务、 锁屏、桌面、号码归属地、用户反馈、安全支付、电信自注 册、DRM、下载管理、手机管家的垃圾清理组件和病毒查杀 组件等在使用过程中需要联网；\n
+2)	天气、语音服务在使用过程中需要使用您的位置信息；\n
+3)	安全支付需要发送、读取信息；\n
+4)	语音服务以及语音还需读取联系人、使用录音；\n
+5)	手电筒需要使用摄像头闪光灯；\n
+6)	"智能识别陌生号码”提供陌生号码识别服务，包括识别疑似 诈骗、广告骚扰等电话号码，使用此服务需要联网与定位杈 限；\n
+7)	"在线识别风险网址”提供识别短信中的恶意网址功能，使用 此功能需要联网杈限；\n</string>
+
+
+</resources>

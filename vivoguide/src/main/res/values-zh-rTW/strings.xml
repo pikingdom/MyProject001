@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">WifiManager</string>
+
+    <!-- 通用按钮 -->
+    <string name="common_button_confirm">確定</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="common_button_apply">應用</string>
+    <string name="common_button_return">返回</string>
+    <string name="common_button_save">保存</string>
+
+    <!-- 一键设置wifi-->
+    <string name="wifi_wlan">WLAN</string>
+    <string name="wifi_static">靜態IP</string>
+    <string name="wifi_dynamics">動態</string>
+    <string name="identity">身份</string>
+    <string name="wifi_passwd">密碼</string>
+    <string name="wifi_ip_address">IP地址</string>
+    <string name="wifi_gateway_address">網関</string>
+    <string name="wifi_netmask_address">子網掩碼</string>
+    <string name="wifi_prefix_length">網絡前綴長度</string>
+    <string name="wifi_dns1_address">DNS1</string>
+    <string name="wifi_dns2_address">DNS2</string>
+    <string name="wifi_show_passwd">顯示密碼</string>
+    <string name="wifi_info_edit_suc">修改成功</string>
+    <string name="wifi_rssi_level_perfect">強</string>
+    <string name="wifi_rssi_level_good">較強</string>
+    <string name="wifi_rssi_level_normal">一般</string>
+    <string name="wifi_rssi_level_bad">弱</string>
+    <string name="wifi_rssi_level_nothing">無</string>
+
+    <string name="wifi_keymgmt_wpa2_use_wps">通過WPA2進行保護(可使用wps)</string>
+    <string name="wifi_keymgmt_802">通過802.1x進行保護</string>
+    <string name="wifi_keymgmt_wpa">通過WPA加密</string>
+    <string name="wifi_keymgmt_wep">通過WEP加密</string>
+    <string name="wifi_keymgmt_wpa2">通過WPA2加密</string>
+    <string name="wifi_keymgmt_wpa_wpa2">通過WPA2/WPA加密</string>
+    <string name="wifi_keymgmt_none">无加密</string>
+
+    <string name="wifi_connect">鏈接</string>
+    <string name="wifi_point_type0">已保存，</string>
+    <string name="wifi_point_type1">已鏈接，鏈接速度：%1$s</string>
+    <string name="wifi_point_type2">%1$s，信號%2$s</string>
+    <string name="wifi_point_type3">狀態：已鏈接\n%1$s\n鏈接速度：%2$s\n信号強度：%3$s\nIP地址：%4$s</string>
+    <string name="wifi_point_type4">状态：未鏈接\n%1$s\n信号強度：%2$s</string>
+    <string name="wifi_static_ip_text">靜態IP</string>
+    <string name="wifi_dyn_ip_text">動態IP</string>
+    <string name="wifi_set_static_title">靜態IP設置</string>
+    <string name="wifi_ip_faild">請輸入有效的%1$s</string>
+    <string name="myphone_setting_name">設置</string>
+
+    <!--vivo-->
+    <string name="vivo_welcome_use">歡迎使用</string>
+    <string-array name="language_array">
+        <item>简体中文</item>
+        <item>English</item>
+        <item>繁體中文(臺灣)</item>
+        <item>繁體中文(香港)</item>
+    </string-array>
+    <string name="choose_wifi">選取網絡</string>
+    <string name="doing_scan">正在掃描...</string>
+    <string name="jump_step">跳過此步驟</string>
+    <string name="forgot_wifi">忘記網絡</string>
+    <string name="cancel_wifi">取消</string>
+    <string name="connect_wifi">連接</string>
+    <string name="wifi_connected_info">狀態信息：已連接\n連接速度：%1$s\n安全性：%2$s\nIP地址：%3$s</string>
+    <string name="connected_to_wifi_name">已連接到 %1$s</string>
+    <string name="login_vivo_account">登錄您的vivo賬戶</string>
+    <string name="login_account_tips">登錄vivo賬戶才能使用云服務、查看手機，並在i主題、應用商店、遊戲中心享受更好的使用體驗和服務</string>
+    <string name="set_vivo">設置vivo</string>
+    <string name="choose_service">選擇服務</string>
+    <string name="begin_use_vivo">開始使用</string>
+    <string name="congratulation">恭喜您</string>
+    <string name="finish_set_tips">您的手機已完成設置\n推薦您使用互傳轉移舊手機數據</string>
+    <string name="start_interchange">啟用互傳</string>
+    <string name="add_user_experience">加入用戶體驗改進計劃</string>
+    <string name="add_user_experience_tips">統計您對產品的使用情況，是以提升產品和服務，從而為您帶來更好的使用體驗。整個過程將遵循隱私政策。</string>
+    <string name="auto_download_update_package">自動下載升級包</string>
+    <string name="wifi_download">WIFI環境下自動下載</string>
+    <string name="ignore_wifi_text">忘記網絡</string>
+    <string name="connect_wifi_text">連接到網絡</string>
+    <string name="modify_pwd_text">修改密碼</string>
+    <string name="save">保存</string>
+    <string name="nextStep">下一步</string>
+
+    <string name="weizhi_service">位置服務</string>
+    <string name="weizhi_service_tips">\"位置服務\" 允許 \"地圖\"及其他應用程序使用無線網絡收集并使用您的位置信息，同時可鞥產生網絡流量。</string>
+
+    <!--y79a-->
+    <string name="vivo_language_choose">選擇語言</string>
+    <string name="vivo_service_des">服務說明</string>
+    <string name="vivo_service_des_tip">為了讓您獲得更好、更專業的使用體驗，部分系統應用程式需要進行連網、定位等操作，包括：\n\n
+                                        1.自動對時、自動檢查更新、定位、待機桌面、電子保證書、應用程式安裝、閱圖鎖定螢幕需要進行連網。\n\n
+                                        2.vivo服務、裝置管理需要進行連網和定位。
+    </string>
+
+    <string name="vivo_agree">同意</string>
+    <string name="vivo_un_agree">不同意</string>
+    <string name="vivo_advance_set">高级设置</string>
+    <string name="jump_step_y79a">略過此步驟</string>
+
+    <string name="vivo_select_service_locationservice">定位服務</string>
+    <string name="vivo_select_service_locationservice_tip">允許地圖、vivo服務、裝置管理員等應用程式使用您的位置訊息。</string>
+
+    <string name="vivo_select_service_zn_update">智能升级</string>
+    <string name="vivo_select_service_zn_update_tip">智慧升級會選擇合適的時機，透過WLAN自動下載升級套件並智慧安裝。</string>
+    <string name="vivo_choose_service_dialog_title">提示</string>
+    <string name="vivo_choose_service_dialog_desc">關閉智能升級後，新版本升級時需要您手動確認才能完成。確定要關閉嗎？</string>
+
+    <!-- y79 -->
+    <string name="vivo_service_des_tip_y79">為了讓您獲得更好、更專業的使用體驗，部分系統應用程式需要進行連網、定位等操作，包括：\n\n
+                                        1.自動對時、自動檢查更新、定位、待機桌面、電子保證書、應用程式安裝、看圖鎖定螢幕服務、使用者體驗改進計畫、智慧引擎需要連網。\n\n
+                                        2.vivo服務、裝置管理需要進行連網和定位。\n\n
+                                        3.悅享智慧可以幫助您更有效地管理您的旅行、生活以及工作, 為您提供智慧管理與提醒等相關服務。\n\n
+                                        在您使用悅享智慧過程中，我們將收集您的裝置訊息（包括IMEI、機型、版本、Wi-Fi、藍牙訊息）和您的個人訊息（包括您的位置、SMS、vivo帳號、應用程式訊息、應用程式使用行為訊息）。\n\n
+                                        我們根據收集的訊息和資料，為您提供智慧提醒、智慧規劃等服務；分析您的使用習慣與偏好，為您提供個性化的使用者體驗。\n\n
+                                        為執行某些功能，以提供您更優質的服務，我們可能會將部分上述訊息做技術加工處理，然後提供給第三方服務供應商，由第三方服務供應商為您提供服務，該過程需要連網。\n\n
+                                        若您不使用悅享智慧，可透過悅享智慧開關關閉。\n\n
+
+    </string>
+
+    <string name="vivo_wifi_title_y79">設定網絡</string>
+    <string name="vivo_wifi_jump">跳過</string>
+    <string name="vivo_import_data_y79">匯入數據</string>
+    <string name="vivo_import_data_y79_import">匯入</string>
+    <string name="vivo_import_data_y79_desc">使用「互傳」一鍵換機，無需流量，即可將舊手機資料（聯絡人、訊息、照片等）快速匯入本機。</string>
+    <string name="vivo_finish_welcom_use">歡迎使用</string>
+    <string name="vivo_finish_start_use">開始使用</string>
+
+</resources>

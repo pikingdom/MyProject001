@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/welcom_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/welcom_act"
+        />
+
+    <TextView
+        android:id="@+id/welcom_usage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcom_usage"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#ffff00"
+        />
+
+    <LinearLayout
+        android:id="@+id/welcom_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/select_language"
+            android:textColor="@color/black"
+            />
+        <RelativeLayout
+            android:id="@+id/view_welcom_language_pop_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/view_welcom_textview_corner">
+
+            <TextView
+                android:id="@+id/view_welcom_language_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:text="@string/select_language_chinese"/>
+
+            <RelativeLayout
+                android:id="@+id/view_welcom_language_more_rl"
+                android:layout_below="@id/view_welcom_language_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_more"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/bottom_buttons" />
+    </LinearLayout>
+</RelativeLayout>

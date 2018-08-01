@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/button_bar_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/button_bar_background"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/title_back_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_back"  />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_toRightOf="@id/title_back_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/vision_setting_title"
+            android:textColor="@color/black_100"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="4dp"
+            android:background="@drawable/lockgp_template_projection_tab"
+            />
+    </RelativeLayout>
+
+    <com.adapter.honoradapter.view.AnimScroll
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_margin_16"
+                android:layout_marginTop="@dimen/layout_margin_16"
+                android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:lineSpacingMultiplier="1.1"
+                android:singleLine="false"
+                android:text="@string/vision_setting_sub_title"
+                android:textColor="@color/black_50"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color" />
+
+            <TextView
+                android:id="@+id/gestures_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/icon_right_gray"
+                android:ellipsize="end"
+                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:paddingBottom="@dimen/layout_padding_14"
+                android:paddingTop="@dimen/layout_padding_14"
+                android:singleLine="true"
+                android:text="@string/accessibility_screen_magnification_title"
+                android:textColor="@color/black_100"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color" />
+
+            <TextView
+                android:id="@+id/font_size_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/icon_right_gray"
+                android:ellipsize="end"
+                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:paddingBottom="@dimen/layout_padding_14"
+                android:paddingTop="@dimen/layout_padding_14"
+                android:singleLine="true"
+                android:text="@string/title_font_size"
+                android:textColor="@color/black_100"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color" />
+
+            <TextView
+                android:id="@+id/view_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/icon_right_gray"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingBottom="@dimen/layout_padding_14"
+                android:paddingTop="@dimen/layout_padding_14"
+                android:singleLine="true"
+                android:text="@string/screen_zoom_title"
+                android:textColor="@color/black_100"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.adapter.honoradapter.view.AnimScroll>
+</LinearLayout>

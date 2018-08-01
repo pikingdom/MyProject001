@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/wlan_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/choose_wlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:text="@string/wifi_wlan"
+            android:textSize="16sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/doing_wifi_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_below="@+id/choose_wlan">
+            <TextView
+                android:id="@+id/doing_wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="left"
+                android:textColor="@color/text_color_small"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+            <ImageView
+                android:id="@+id/wifi_connect_img_in_wlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:visibility="visible"
+                android:src="@drawable/ok" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

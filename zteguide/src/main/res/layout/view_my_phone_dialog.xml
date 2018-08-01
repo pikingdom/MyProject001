@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_50"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2sp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:text="@string/my_phone_be_careful"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lockgp_common_title_bg_color_click"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="40dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:text="@string/my_phone_be_careful_tip"
+            android:textColor="@color/bottom_text"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            >
+
+            <TextView
+                android:id="@+id/dialog_cancle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/cancle"
+                android:textSize="16sp"
+                android:textColor="@color/bottom_text"
+                android:background="@drawable/button_selector"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/dialog_submit"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textColor="@color/bottom_text"
+                android:textSize="16sp"
+                android:background="@drawable/button_selector"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

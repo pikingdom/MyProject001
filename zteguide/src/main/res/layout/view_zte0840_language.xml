@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+       <RelativeLayout
+           android:id="@+id/logo_rl"
+           android:layout_width="match_parent"
+           android:background="#F4F4F4"
+           android:layout_height="150dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:background="@drawable/welcom_act_v0840"/>
+
+               <TextView
+                   android:layout_marginTop="8dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="欢迎"
+                   android:textColor="#6F85B5"
+                   android:textSize="30sp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="MiFavor"
+                   android:textColor="#6F85B5"
+                   android:textSize="13sp"
+                   />
+           </LinearLayout>
+
+       </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/logo_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择语言"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#6F85B5"
+            android:textSize="15sp"
+            />
+        <ListView
+            android:layout_marginTop="10dp"
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="#33828282"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="none"
+            android:dividerHeight="0.67dp"
+            android:fastScrollEnabled="false"
+            android:listSelector="#00000000"
+            android:scrollbars="none"
+            android:smoothScrollbar="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zte_control_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/btn_shape1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/zte_previous_step_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#ff333333"
+            android:textSize="16sp"
+            android:text="@string/previous_step"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/zte_next_step_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#ff333333"
+            android:textSize="16sp"
+            android:text="@string/next_step"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

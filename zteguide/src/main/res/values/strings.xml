@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">ZTEGuideDemo</string>
+
+
+    <string name="previous_step">上一步</string>
+    <string name="next_step">下一步</string>
+    <string name="skip_step">跳过</string>
+    <string name="select_language">请选择语言</string>
+    <string name="select_language_chinese">中文</string>
+    <string name="select_language_englise">英文</string>
+    <string name="welcom_usage">欢迎使用</string>
+    <string name="sim_insert_please">请插入SIM卡</string>
+
+    <string name="sim_desc">您需要参阅手机随附 SIM 卡说明。\n\n如果您想跳过这一步骤，请在后续插入SIM卡，否则手机的多数功能将无法使用。</string>
+
+
+    <string name="my_phone_title">我的手机</string>
+    <string name="my_phone_name_tip">请设置您的手机名称。在使用蓝牙、WLAN热点、WLAN 直连、WLNA等功能时，您需要该名称来识别设备。</string>
+    <string name="my_phone_name_tip2">请设置您的手机名称。在使用蓝牙、WLAN热点、WLAN 直连等功能时，您需要该名称来识别设备。</string>
+    <string name="my_phone_update_info">系统升级信息</string>
+    <string name="my_phone_update_info_tip">允许服务器向手机推送系统升级信息</string>
+    <string name="my_phone_App_update_info">应用升级信息</string>
+    <string name="my_phone_App_update_info_tip">允许服务器向手机推送应用升级信息</string>
+    <string name="my_phone_join_in_Update">我愿意参加ZTE用户体验提升计划</string>
+    <string name="my_phone_zte_user_agreement">ZTE用户体验计划声明</string>
+
+    <string name="my_phone_be_careful">注意</string>
+    <string name="my_phone_be_careful_tip">允许服务器向手机推送系统升级信息和应用升级信息?</string>
+    <string name="zte_0840_be_careful_tip">服务器向手机推送升级信息和应用升级信息会耗费流量。</string>
+    <string name="cancle">取消</string>
+    <string name="submit">确定</string>
+    <string name="done">完成</string>
+
+    <string name="color_choice">你喜欢什么颜色</string>
+    <string name="color_choice_description">请选择你喜欢的颜色</string>
+    <string name="color1">紫水晶</string>
+    <string name="color2">仙桃粉</string>
+    <string name="color3">孔雀石</string>
+    <string name="color4">虎百合</string>
+    <string name="color5">海洋蓝</string>
+
+    <string name="zte_sign_in">登录</string>
+    <string name="zte_sign_up">注册</string>
+
+    <string name="zte_vip">中兴五星级VIP会员</string>
+    <string name="guide_welcome_title">注册帐号后，您可以享受以下服务权益</string>
+    <string name="vip_title_1">专属热线：</string>
+    <string name="vip_detail_1">4008809999热线专席</string>
+    <string name="vip_title_2">免费寄修：</string>
+    <string name="vip_detail_2">邮寄维修，往返运费全免</string>
+    <string name="vip_title_3">预约快修：</string>
+    <string name="vip_detail_3">预约服务优先处理，1小时快速维修</string>
+    <string name="vip_title_4">免费保养：</string>
+    <string name="vip_detail_4">免费清洗、内存清理、软件升级及贴膜等服务</string>
+    <string name="vip_title_5">特惠维修：</string>
+    <string name="vip_detail_5">购机1年内，若出现意外摔裂或进水，换屏最高不超过299元，换主板最高不超过399元</string>
+    <string name="vip_title_6">30天无忧：</string>
+    <string name="vip_detail_6">购机30天内，凡出现意外屏裂或进水，享受免费维修</string>
+
+    <string name="user_exp_zte_declare_title_1">用户体验计划声明</string>
+    <string name="user_exp_zte_declare_title_2">ZTE中兴用户体验</string>
+    <string name="user_exp_back">我知道了</string>
+    <string name="user_exp_content">&#160;&#160;&#160;  在参与用户体验计划前，请您先仔细阅读以下条款，一旦您选择参加用户体验计划，即表示您认可并接受用户体验计划声明：\n\n
+
+     1. 用户体验计划用来收集用户应用软件的运行时长（与第三方省电软件功能类似），不会收集软件中的用户私有数据。\n\n
+
+     为了提供更好的客户服务，中兴会暂时将用户体验数据与能够识别您终端设备的IMEI号关联在一起，但这些信息并不能让中兴识别您的身份。中兴会使用这些信息进行必要的数据分析，并以此为基础，开发新功能或改进产品质量，以期为您提供更好的功耗和稳定性体验。\n\n
+
+     2. 除非您亲自许可，或者根据相关法律、法规的强制性规定必须披露外，中兴会尽最大可能的对收集到的信息进行保密，不会将您的信息直接提供给任意第三方。\n\n
+
+     由于您的自身行为或者不可抗力等情形，导致上述信息的内容发生被泄漏、披露，或被第三方获取、使用、转让等情形的，均由您自行承担不利后果，中兴对此不承担任何责任。
+
+     3. 为了避免使用用户移动网络流量，用户体验计划收集的数据只在WIFI环境下进行发送。\n\n
+
+     4. 如果您选择参加用户体验计划，将可以在后续版本更新中获得更好的功耗和稳定性体验。\n</string>
+
+    <string name="user_voice_privacy">&#160;&#160;&#160; 在使用中兴语音助手前，请您先仔细阅读以下条款，一旦您选择使用中兴语音助手，即表示您认可并接受以下权限声明：\n\n
+
+     1. 请您注意在保证安全的前提下使用本软件，以防发生危险，若您没有注意，由此导致的任何事故或问题，本软件不承担法律责任。\n\n
+
+
+     2. 语音助手使用该过程中某些功能可能需要连接联网（通过2G/3G/4G或WLAN网络联网）并使用少量流量，流量资费详见当地运营商。为保证语音助手正常使用，可能需要读/写/发送短信、读/写短信记录、读/写通话记录和联系人、拨打电话、录音、定位并读取位置信息、开启移动网络、开启WLAN、开启蓝牙，但不会传送数据及造成您的信息泄露。\n\n
+
+
+      </string>
+
+
+    <string name="zte_finish_view_btn_text">立即体验</string>
+    <string name="zte_finish_view_tips">您的手机已经准备就绪！</string>
+    <string name="zte_account_view_title">我的账号</string>
+    <string name="zte_account_view_tips1">使用中兴账号，你可以便捷的体验更多项特色中兴服务。</string>
+    <string name="zte_account_view_tips2">如果您在使用时有任何问题，欢迎您使用中兴客户应用，体验最贴心的售后服务。</string>
+    <string name="zte_fingerprint_view_title">我的指纹</string>
+    <string name="zte_fingerprint_view_add_fingerprint_btn">添加指纹</string>
+    <string name="zte_fingerprint_view_tips1">本机支持指纹识别，您可以添加指纹，也可以选择跳过，并在设置中找到该功能。</string>
+
+    <!--zte 0804 -->
+    <string name="wifi_rssi_level_perfect">强</string>
+    <string name="wifi_rssi_level_good">较强</string>
+    <string name="wifi_rssi_level_normal">一般</string>
+    <string name="wifi_rssi_level_bad">弱</string>
+    <string name="wifi_rssi_level_nothing">无</string>
+    <string name="wifi_wpa">WPA PSK</string>
+    <string name="wifi_wep">WEP PSK</string>
+    <string name="wifi_wpa2">WPA2 PSK</string>
+    <string name="wifi_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_wpa2_use_wps">WPA2 PSK WPS</string>
+    <string name="wifi_802">802.1x EAP</string>
+    <string name="wifi_none">NONE </string>
+    <string name="connected">已连接</string>
+    <string name="saved">已保存</string>
+    <string name="choose_wlan_network">选择WLAN网络</string>
+    <string name="zx_cancel_wifi">取消</string>
+    <string name="zx_connect_wifi">连接</string>
+    <string name="identity">身份</string>
+    <string name="wifi_passwd">密码</string>
+    <string name="wifi_show_passwd">显示密码</string>
+    <string name="zx_wifi_connected_info">状态信息：\n已连接\n\n信号强度：\n%1$s\n\n安全性：\n%2$s\n\nIP地址：\n%3$s</string>
+    <string name="zx_forgot_wifi">取消保存</string>
+    <string name="zte_0840_insert_sim">请插入USIM卡</string>
+</resources>

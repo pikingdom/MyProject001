@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffafafa">
+
+    <TextView
+        android:id="@+id/guide_language_choose_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="数据连接"
+        android:textColor="#ff343434"
+        android:textSize="22sp" />
+
+    <include layout="@layout/common_bottom_layout"/>
+
+    <LinearLayout
+        android:layout_below="@id/guide_language_choose_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_line"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="数据连接"
+                android:textSize="17sp"
+                android:textColor="#333333"/>
+
+            <ToggleButton
+                android:id="@+id/data_set_tg"
+                android:layout_width="45dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@drawable/other_setting_view"
+                android:checked="true"
+                android:text=""
+                android:textOff=""
+                android:textOn="" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="如果您尚未办理数据流量套餐，建议关闭数据流量，否则对于超出的数据流量，运营商可能会向您收取额外的费用。"
+            android:textColor="#333333"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

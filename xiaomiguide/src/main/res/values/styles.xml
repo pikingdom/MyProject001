@@ -1,0 +1,44 @@
+<resources>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="connected_status">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/gray_light2</item>
+    </style>
+
+    <style name="connect_ssid">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <!--<item name="android:textStyle">italic</item>-->
+    </style>
+
+    <style name="saved_ssid">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="static_set_param_text">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="static_set_param_edit">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+</resources>

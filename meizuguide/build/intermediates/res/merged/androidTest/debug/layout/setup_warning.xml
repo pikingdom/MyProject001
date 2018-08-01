@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/warning_title"
+        style="@style/SetupProtocolText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/setup_normal_list_view_double_padding_lr"
+        android:paddingRight="@dimen/setup_normal_list_view_double_padding_lr"
+        android:text="@string/waring_title"
+        android:textSize="@dimen/text_size_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="26dp"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/setup_normal_list_view_double_padding_lr"
+            android:paddingRight="@dimen/setup_normal_list_view_double_padding_lr">
+
+            <TextView
+                android:id="@+id/protocol_title"
+                style="@style/SetupProtocolText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/protocol_title" />
+
+            <TextView
+                android:id="@+id/protocol_desc"
+                style="@style/SetupProtocolText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:text="@string/userWaringTip"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/title_privacy"
+                style="@style/SetupProtocolText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:text="@string/title_privacy" />
+
+            <TextView
+                android:id="@+id/desc_privacy"
+                style="@style/SetupProtocolText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:text="@string/desc_privacy" />
+
+            <TextView
+                android:id="@+id/ip_title"
+                style="@style/SetupProtocolText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:text="@string/title_IP" />
+
+            <TextView
+                android:id="@+id/ip_desc"
+                style="@style/SetupProtocolText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:text="@string/desc_IP"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/bottomBarInner"
+        layout="@layout/bottom_step_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</LinearLayout>

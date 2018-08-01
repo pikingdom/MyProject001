@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fafafa">
+
+    <include
+        android:id="@+id/zx_top_layout"
+        layout="@layout/choose_wlan_net_work_view"/>
+
+    <RelativeLayout
+        android:id="@+id/zx_wifi_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zx_bottom_layout"
+        android:layout_below="@id/zx_top_layout">
+        <ListView
+            android:id="@+id/zx_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@android:color/transparent"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/zx_bottom_layout"
+        layout="@layout/zx_bottom_view"/>
+
+</RelativeLayout>

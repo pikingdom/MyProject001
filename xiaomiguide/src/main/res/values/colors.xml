@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_dark">#fafafa</color>
+    <color name="black">#ff000000</color>
+    <color name="black_light">#666666</color>
+    <color name="blue">#ff466c90</color>
+    <color name="gray">#ff343434</color>
+    <color name="gray_light2">#9a9a9a</color>
+    <color name="gray_light">#ff818181</color>
+    <color name="gray_disable">#ff9c999c</color>
+    <color name="green">#ff84ac00</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#ffff4444</color>
+    <color name="light_blue">#007dff</color>
+    <color name="light_blue_20">#33007dff</color>
+    <color name="dark_blue">#ff0064cc</color>
+    <color name="data_usage_text_color">#ff476a90</color>
+    <color name="secure_text_color">#ff6f6f71</color>
+    <color name="btn_color">#ff4e7109</color>
+    <color name="btn_text_color">#ffb7b7b7</color>
+    <color name="shadow_color">#ffddfaa1</color>
+    <color name="dark_green_color">#ff84ac00</color>
+    <color name="windowTitlleButtonShadowColor">#0036343a</color>
+    <color name="light_gray">#ff7c7c7c</color>
+
+    <color name="language_bg_press">#818181</color>
+    <color name="dialog_color">#f4f4f4</color>
+
+    <color name="wifi_gray_deep">#cccccc</color>
+    <color name="wifi_gray">#737373</color>
+
+
+</resources>

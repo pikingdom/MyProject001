@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statusBarColor"
+    android:layout_gravity="center">
+
+    <include
+        android:id="@+id/static_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_toolbar"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/static_toolbar"
+        android:layout_marginBottom="16dp"
+        android:background="#dddddd"/>
+
+    <TextView
+        android:id="@+id/forgot_wifi_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:layout_below="@+id/line"
+        android:clickable="false"
+        android:gravity="center_vertical"
+        android:padding="15dip"
+        android:text="@string/ignore_wifi_text"
+        android:textColor="#1b1b1b"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/forgot_wifi_txt"
+        android:padding="10dip" >
+        <RelativeLayout
+            android:id="@+id/ip_assignment_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/static_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:clickable="false"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="@string/wifi_static"
+                android:textColor="#1b1b1b"
+                android:textSize="16sp" />
+
+            <com.wifi.vivoguide.commonview.SlipButtonView
+                android:id="@+id/wifi_ip_assignment"
+                android:layout_width="80dip"
+                android:layout_height="40dip"
+                android:layout_alignRight="@id/static_title"
+                android:layout_alignTop="@id/static_title"
+                android:layout_marginTop="10dip" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line_static"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/ip_assignment_layout"
+            android:layout_marginLeft="10dp"
+            android:background="#dddddd"/>
+
+        <RelativeLayout
+            android:id="@+id/static_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/line_static"
+            android:layout_marginTop="5dip">
+
+            <RelativeLayout
+                android:id="@+id/ip_address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/ip_address_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:text="@string/wifi_ip_address"
+                    android:textColor="#1b1b1b"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/ip_address_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_toRightOf="@+id/ip_address_txt"
+                    android:gravity="right"
+                    android:textColor="#686c6f"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_ip"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/ip_address_layout"
+                android:layout_marginLeft="10dp"
+                android:background="#dddddd"/>
+
+            <RelativeLayout
+                android:id="@+id/gateway_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ip_address_layout">
+                <TextView
+                    android:id="@+id/gateway_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:text="@string/wifi_gateway_address"
+                    android:textColor="#1b1b1b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/gateway_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_toRightOf="@+id/gateway_txt"
+                    android:gravity="right"
+                    android:textColor="#686c6f"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_gateway"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/gateway_layout"
+                android:layout_marginLeft="10dp"
+                android:background="#dddddd"/>
+
+            <RelativeLayout
+                android:id="@+id/netmask_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line_gateway">
+                <TextView
+                    android:id="@+id/netmask_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:text="@string/wifi_netmask_address"
+                    android:textColor="#1b1b1b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/netmask_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="right"
+                    android:textColor="#686c6f"
+                    android:textSize="14sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_netmask"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/netmask_layout"
+                android:layout_marginLeft="10dp"
+                android:background="#dddddd"/>
+
+            <RelativeLayout
+                android:id="@+id/dns1_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/netmask_layout">
+                <TextView
+                    android:id="@+id/dns1_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:text="@string/wifi_dns1_address"
+                    android:textColor="#1b1b1b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/dns1_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_toRightOf="@+id/dns1_txt"
+                    android:gravity="right"
+                    android:textColor="#686c6f"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_dns1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/dns1_layout"
+                android:layout_marginLeft="10dp"
+                android:background="#dddddd"/>
+
+            <RelativeLayout
+                android:id="@+id/dns2_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dns1_layout">
+                <TextView
+                    android:id="@+id/dns2_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:text="@string/wifi_dns2_address"
+                    android:textColor="#1b1b1b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/dns2_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_toRightOf="@+id/dns2_txt"
+                    android:gravity="right"
+                    android:textColor="#686c6f"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_dns2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/dns2_layout"
+                android:layout_marginLeft="10dp"
+                android:background="#dddddd"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

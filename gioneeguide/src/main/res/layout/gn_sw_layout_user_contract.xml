@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/gn_sw_layout_title_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F2F2F2"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp"
+        >
+        <ImageView
+            android:id="@+id/gn_sw_layout_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gn_icon_back"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/user_contract_title"
+            android:textColor="#616161"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/gn_sw_layout_line"
+        android:layout_below="@id/gn_sw_layout_title_ll"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gn_sw_layout_listview_divider_color"
+        />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/gn_sw_layout_line"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/gn_sw_layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/gn_sw_layout_content_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/user_contract_title"
+                android:textColor="@color/gn_sw_layout_contract_content_title_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gn_sw_layout_content_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/user_contract_desc"
+                android:textColor="@color/gn_sw_layout_contract_content_text_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

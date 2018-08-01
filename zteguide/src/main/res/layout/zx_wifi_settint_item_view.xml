@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/zx_wifi_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/zx_list_item_selector"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp">
+
+        <RelativeLayout
+            android:id="@+id/zx_wifi_left_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/zx_wifi_right_layout">
+
+            <TextView
+                android:id="@+id/zx_wifi_ssid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="26dp"
+                android:gravity="left"
+                android:textColor="@color/light_black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/zx_wifi_right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true">
+
+            <RelativeLayout
+                android:id="@+id/zx_wifi_flag_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp">
+                <ImageView
+                    android:id="@+id/zx_wifi_flag_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/zx_wifi_rssi_level_perfect" />
+
+                <ImageView
+                    android:id="@+id/zx_wifi_key_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/zx_wifi_keys_lock" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/zx_wifi_item"
+        android:background="#dcdcdc"/>
+</RelativeLayout>

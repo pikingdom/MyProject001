@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/privacy_dialog_rl_cornor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:text="@string/fingerbeforestart_dialog_title"
+            android:textColor="@color/black_3f"
+            android:textSize="21sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color2" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:id="@+id/data_migration_tip"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="25dp"
+               android:layout_marginBottom="20dp"
+               android:paddingLeft="14dp"
+               android:paddingRight="14dp"
+               android:text="@string/fingerbeforestart_dialog_content"
+               android:textColor="@color/black_3f"
+               android:textSize="16sp"
+               />
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            >
+
+            <TextView
+                android:id="@+id/dialog_submit"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/no_sim_card_gone"
+                android:textSize="16sp"
+                android:textColor="@color/light_blue"
+                android:background="@drawable/hw_button_selector"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/dialog_cancle"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/dialog_giveup"
+                android:textColor="#ff0000"
+                android:textSize="16sp"
+                android:background="@drawable/hw_button_selector"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="25dp"
+    android:background="#fff4f4f4">
+
+    <TextView
+        android:id="@+id/choose_wlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="#191919"
+        android:text="@string/choose_wlan_network"
+        android:textSize="16sp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/choose_wlan"
+        android:background="@drawable/btn_shape2"/>
+
+</RelativeLayout>

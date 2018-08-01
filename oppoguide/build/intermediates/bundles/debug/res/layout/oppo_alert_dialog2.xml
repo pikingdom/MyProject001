@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/oppo_dialog_bg2"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="test"
+        android:textColor="#2f2f2f"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="18dp"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:gravity="center"
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:textColor="#2ac795"
+            android:text="cancel"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="@drawable/oppo_dialog_left2"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/ok"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:textColor="#2ac795"
+            android:text="ok"
+            android:layout_marginLeft="-1px"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="@drawable/oppo_dialog_right2"/>
+    </LinearLayout>
+</LinearLayout>

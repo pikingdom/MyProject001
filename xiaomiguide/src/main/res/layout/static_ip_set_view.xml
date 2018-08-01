@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 表格布局 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- 表格布局：第一行 -->
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_top_corner_no_bottom_line">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                style="@style/static_set_param_text"
+                android:textColor="@color/black"
+                android:text="@string/ip_address" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/line1"
+                android:layout_width="1dp"
+                android:layout_height="57dp"
+                android:layout_toRightOf="@+id/text1"
+                android:background="#e2e2e2"/>
+
+            <EditText
+                android:id="@+id/ip_address_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/line1"
+                style="@style/static_set_param_edit"
+                android:text="172.17.154.77">
+            </EditText>
+        </RelativeLayout>
+
+        <!-- 表格布局：第二行 -->
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:background="@drawable/shape_no_corner_without_bottom">
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                style="@style/static_set_param_text"
+                android:textColor="@color/black"
+                android:text="@string/router" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/line2"
+                android:layout_width="1dp"
+                android:layout_height="57dp"
+                android:layout_toRightOf="@+id/text2"
+                android:background="#e2e2e2"/>
+
+            <EditText
+                android:id="@+id/router_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/line2"
+                style="@style/static_set_param_edit"
+                android:text="172.17.154.1"
+                >
+            </EditText>
+        </RelativeLayout>
+
+        <!-- 表格布局：第三行 -->
+        <RelativeLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout2"
+            android:background="@drawable/shape_no_corner_without_bottom">
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                style="@style/static_set_param_text"
+                android:textColor="@color/black"
+                android:text="@string/prefix" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/line3"
+                android:layout_width="1dp"
+                android:layout_height="57dp"
+                android:layout_toRightOf="@+id/text3"
+                android:background="#e2e2e2"/>
+
+            <EditText
+                android:id="@+id/prefix_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/line3"
+                style="@style/static_set_param_edit"
+                android:text="24">
+            </EditText>
+        </RelativeLayout>
+
+        <!-- 表格布局：第4行 -->
+        <RelativeLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout3"
+            android:background="@drawable/shape_no_corner_without_bottom">
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                style="@style/static_set_param_text"
+                android:textColor="@color/black"
+                android:text="@string/dns1" >
+            </TextView>
+            <ImageView
+                android:id="@+id/line4"
+                android:layout_width="1dp"
+                android:layout_height="57dp"
+                android:layout_toRightOf="@+id/text4"
+                android:background="#e2e2e2"/>
+
+
+            <EditText
+                android:id="@+id/dns1_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/line4"
+                style="@style/static_set_param_edit"
+                android:text="8.8.8.8">
+            </EditText>
+        </RelativeLayout>
+
+        <!-- 表格布局：第5行 -->
+        <RelativeLayout
+            android:id="@+id/layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout4"
+            android:background="@drawable/shape_bottom_corner_no_top_line">
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                style="@style/static_set_param_text"
+                android:textColor="@color/black"
+                android:text="@string/dns2" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/line5"
+                android:layout_width="1dp"
+                android:layout_height="57dp"
+                android:layout_toRightOf="@+id/text5"
+                android:background="#e2e2e2"/>
+
+            <EditText
+                android:id="@+id/dns2_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/line5"
+                style="@style/static_set_param_edit"
+                android:textColor="@color/gray_light2"
+                android:text="8.8.4.4">
+            </EditText>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

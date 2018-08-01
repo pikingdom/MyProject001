@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@id/logo_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="@dimen/layout_margin_24"-->
+        <!--android:layout_marginStart="@dimen/layout_margin_24"-->
+        <!--android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<FrameLayout-->
+            <!--android:id="@id/sim_logo"-->
+            <!--android:layout_width="UNKNOWN_DATA_0x7f090063"-->
+            <!--android:layout_height="UNKNOWN_DATA_0x7f090063">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+                <!--android:background="@drawable/ic_title_bg"-->
+                <!--android:contentDescription="@string/insert_sim_card" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="UNKNOWN_DATA_0x7f090062"-->
+                <!--android:layout_height="UNKNOWN_DATA_0x7f090062"-->
+                <!--android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"-->
+                <!--android:layout_marginTop="@dimen/layout_margin_30"-->
+                <!--android:background="@drawable/ic_oobe_sim"-->
+                <!--android:contentDescription="@string/insert_sim_card" />-->
+        <!--</FrameLayout>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="HwChinese-medium"-->
+            <!--android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+            <!--android:text="@string/insert_sim_card"-->
+            <!--android:textColor="@color/black_100"-->
+            <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/layout_margin_24"-->
+            <!--android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+            <!--android:text="@string/no_sim_card"-->
+            <!--android:textColor="@color/black_50"-->
+            <!--android:textSize="15sp" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

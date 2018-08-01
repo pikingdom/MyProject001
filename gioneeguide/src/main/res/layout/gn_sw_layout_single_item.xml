@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="@dimen/gn_sw_layout_input_listview_item_height"
+    android:paddingLeft="@dimen/gn_sw_layout_title_margin"
+    android:paddingRight="@dimen/gn_sw_layout_listview_item_padding_right">
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/c"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="@drawable/redioselector"-->
+        <!--android:button="@null"-->
+        <!--android:clickable="false" />-->
+    <ImageView
+        android:id="@+id/gn_sw_layout_single_item_RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/gn_ridio_unselected"/>
+
+    <TextView
+        android:id="@+id/gn_sw_layout_single_item_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/gn_sw_layout_single_item_RadioButton"
+        android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:textColor="@color/gn_sw_layout_list_textColor"
+        android:textSize="@dimen/gn_sw_layout_input_listview_item_textSize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gn_sw_layout_listview_divider_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/view" />
+</RelativeLayout>

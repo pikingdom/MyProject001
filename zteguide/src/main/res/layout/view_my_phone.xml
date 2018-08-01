@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/my_phone_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/my_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_phone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/my_phone_title"
+            android:textColor="@color/white"
+            android:textSize="21sp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/my_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/my_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/bottom_text"
+                android:layout_marginBottom="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="14dp"
+                android:maxLength="50"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:gravity="left|center_vertical"
+                android:textSize="16sp"
+                android:text="ZTE_S2004_5684"
+                android:background="@drawable/my_phone_edit_corner_blue"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:textSize="13sp"
+                android:textColor="#888888"
+                android:text="@string/my_phone_name_tip"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="6dp"
+                android:background="#c8c8c8"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+              android:layout_marginTop="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <RelativeLayout
+                  android:layout_marginTop="14dp"
+                  android:layout_marginLeft="14dp"
+                  android:layout_marginRight="14dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/my_phone_update_info"
+                          android:textSize="17sp"
+                          android:textColor="@color/bottom_text"
+                          android:id="@+id/textView" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="10dp"
+                          android:text="@string/my_phone_update_info_tip"
+                          android:textSize="13sp"
+                          />
+                  </LinearLayout>
+                  <ToggleButton
+                      android:id="@+id/my_phone_update_info_toggle_togglebt"
+                      android:layout_width="45dp"
+                      android:layout_centerVertical="true"
+                      android:layout_alignParentRight="true"
+                      android:layout_height="wrap_content"
+                      android:background="@android:color/transparent"
+                      android:button="@drawable/checkbox_my_phone"
+                      android:checked="false"
+                      android:text=""
+                      android:textOff=""
+                      android:textOn="" />
+
+              </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:background="#c8c8c8"
+                />
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_phone_App_update_info"
+                        android:textSize="17sp"
+                        android:textColor="@color/bottom_text"
+                        android:id="@+id/textView2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/my_phone_App_update_info_tip"
+                        android:textSize="13sp"
+                        />
+                </LinearLayout>
+                <ToggleButton
+                    android:id="@+id/my_phone_App_update_info_toggle_togglebt"
+                    android:layout_width="45dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/checkbox_my_phone"
+                    android:checked="false"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:background="#c8c8c8"
+                />
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/my_phone_join_in_Update"
+                    android:textSize="17sp"
+                    android:textColor="@color/bottom_text"
+                    />
+
+                <ToggleButton
+                    android:id="@+id/my_phone_join_in_Update_toggle"
+                    android:layout_width="45dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/checkbox_my_phone"
+                    android:checked="false"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/my_phone_zte_user_agreement"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_phone_zte_user_agreement"
+                />
+
+          </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/bottom_buttons" />
+
+</RelativeLayout>

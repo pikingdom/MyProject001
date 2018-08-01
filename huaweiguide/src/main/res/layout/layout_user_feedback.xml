@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/user_feedback_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/privacy_check"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/user_feedback_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_margin_16"
+            android:layout_marginTop="@dimen/layout_margin_16"
+            android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android:singleLine="false"
+            android:text="@string/user_feedback_title"
+            android:textColor="@color/black_100"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user_feedback_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_view"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:lineSpacingMultiplier="1.1"
+        android:textColor="@color/black_100"
+        android:textSize="13sp" />
+</RelativeLayout>

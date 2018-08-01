@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gn_sw_main_background_color">
+
+    <com.gionee.setupwizard.widget.TimeView
+        android:id="@+id/gn_sw_layout_wifi_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/gn_sw_layout_wifi_time_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gn_sw_layout_wifi_time"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingMultiplier="1.5"
+        android:singleLine="false"
+        android:text="@string/gn_sw_strinf_wifi_net_hint"
+        android:textColor="@color/gn_sw_layout_wifi_net_hint_text_color"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/gn_sw_layout_wifi_jumpbutton"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/gn_green_btn"
+        android:text="@string/gn_sw_string_jump"
+        android:textColor="@color/gn_sw_layout_white_color" />
+
+    <ListView
+        android:id="@+id/gn_sw_layout_wifi_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@drawable/gn_course_list_selector"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:layout_above="@+id/gn_sw_layout_wifi_jumpbutton"
+        android:layout_below="@+id/gn_sw_layout_wifi_choiceview"
+        android:layout_marginBottom="9dp" />
+
+    <TextView
+        android:id="@+id/gn_sw_layout_wifi_choiceview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gn_sw_layout_wifi_time_tips"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="35dp"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:text="@string/gn_sw_string_wifi_choiceview_text"
+        android:textColor="@color/gn_sw_layout_wifi_title_color"
+        android:textSize="14sp" />
+</RelativeLayout>

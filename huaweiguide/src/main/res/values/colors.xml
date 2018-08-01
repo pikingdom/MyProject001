@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="oobe_middle_content_color">#a6000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider1">#ffb8bfc5</color>
+    <color name="divider2">#ffb8bfc5</color>
+    <color name="color_100_alph">#ff000000</color>
+    <color name="color_70_alph1">#b3000000</color>
+    <color name="color_70_alph2">#b4000000</color>
+    <color name="color_yalan1">#ff28c0c6</color>
+    <color name="color_yalan2">#ff12d4dc</color>
+    <color name="color_red1">#fff0460e</color>
+    <color name="color_red2">#b4f0460e</color>
+    <color name="black_100">#ff000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="divider_color">#1a000000</color>
+    <color name="divider_color2">#19000000</color>
+    <color name="color_blue">#ff28c0c6</color>
+    <color name="light_blue">#ff007dff</color>
+    <color name="light_blue_20">#33007dff</color>
+    <color name="dark_blue">#ff0064cc</color>
+    <color name="button_bar_background">#fffcfcfc</color>
+    <color name="color_30_alph1">#4d000000</color>
+    <color name="color_30_alph2">#4d000000</color>
+    <color name="color_85_alph3">#da000000</color>
+    <color name="color_85_alph4">#da000000</color>
+    <color name="color_65_alph5">#a7000000</color>
+    <color name="color_65_alph6">#a7000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_3f">#3F3F3F</color>
+
+    <color name="color_title">#4b4b4b</color>
+    <color name="color_desc">#55666666</color>
+</resources>

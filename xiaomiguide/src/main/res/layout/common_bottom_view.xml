@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_select_bg"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="#737373"
+            android:text="@string/back"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/jump"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_select_bg"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#cccccc"
+            android:text="@string/jump"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/go_on"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_select_bg"
+            android:textColor="@color/light_blue"
+            android:text="@string/go_on"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomtest_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bottom_layout"
+        android:padding="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/net_communication_rl"
+    android:background="#ffffff">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="网络通讯"
+            android:textColor="#333333"
+            android:textSize="24sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="#d9d9d9" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="免费网络通信"
+                android:textColor="#333333"
+                android:textSize="19sp" />
+
+            <ToggleButton
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/other_setting_view"
+                android:checked="true"
+                android:text=""
+                android:textOff=""
+                android:textOn="" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="#d9d9d9" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="启用后可以和其他小米用户通过互联网免费打电话或发消息，您可以随时在设置中开启和关闭。其中免费电话由微会提供技术支持，请查看微会的隐私政策"
+            android:textColor="#333333"
+            android:textSize="15sp"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/net_communication_service_need"
+            android:textColor="#7f7f7f"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_bottom" />
+
+</RelativeLayout>

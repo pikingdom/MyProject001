@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vision4_statusbar_color">
+
+
+    <TextView
+        android:id="@+id/guide_agreement_and_terms_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/guide_login_hisense_account"
+        android:textColor="@color/guide_text_color"
+        android:textSize="@dimen/guide_title_text_size" />
+
+
+    <include layout="@layout/common_bottom_layout"/>
+
+
+    <LinearLayout
+        android:layout_below="@id/guide_agreement_and_terms_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pic"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black_3f"
+            android:textSize="14sp"
+            android:text="信封、聚享购、聚好学、慧享家等服务注册的海信账号可以直接登录。登录海信账号会访问网络。"
+            android:id="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/guide_agreement_and_terms_login"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/guide_login_blue_btn"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/guide_agreement_and_terms_register"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/guide_login_white_btn"
+            android:gravity="center"
+            android:text="注册新用户"
+            android:visibility="gone"
+            android:textColor="@color/light_blue"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

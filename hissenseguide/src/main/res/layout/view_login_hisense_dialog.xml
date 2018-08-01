@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/guide_login_white_btn_no_stroke"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="您需要连接网络才能继续，请选择连接方式"
+                android:textColor="@color/black_100"
+                android:textSize="16sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/view_line"
+                />
+            <TextView
+                android:id="@+id/dialog_wlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="WLAN"
+                android:textColor="@color/dark_blue"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/dialog_net_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="数据流量"
+                android:textColor="@color/dark_blue"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/dialog_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/guide_login_white_btn_no_stroke"
+            android:text="取消"
+            android:textColor="@color/dark_blue"
+            />
+    </LinearLayout>
+</RelativeLayout>

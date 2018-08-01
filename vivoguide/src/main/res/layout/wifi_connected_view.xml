@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:background="#dddddd"/>
+
+    <RelativeLayout
+        android:id="@+id/wifi_connected_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/line">
+        <ImageView
+            android:id="@+id/wifi_connect_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ok" />
+        <RelativeLayout
+            android:id="@+id/wifi_ssid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_toLeftOf="@+id/wifi_img_layout"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/wifi_img_layout"
+            android:layout_alignBottom="@+id/wifi_img_layout">
+            <TextView
+                android:id="@+id/wifi_ssid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:layout_centerVertical="true"
+                android:textColor="#303030"
+                android:text="llllll"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wifi_img_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true">
+
+            <RelativeLayout
+                android:id="@+id/wifi_flag_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp">
+                <ImageView
+                    android:id="@+id/wifi_flag_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/wifi_rssi_level_perfect" />
+
+                <ImageView
+                    android:id="@+id/wifi_key_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/wifi_key_lock" />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/go_wifi_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/wifi_flag_layout"
+                android:scaleType="fitCenter"
+                android:src="@drawable/wifi_set_arrow" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

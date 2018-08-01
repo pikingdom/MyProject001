@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\debug\\layout\\setup_warning.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\src\\main\\res\\layout\\setup_warning.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\debug\\layout\\setup_logo_layout.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\src\\main\\res\\layout\\setup_logo_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\debug\\layout\\item_language.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\src\\main\\res\\layout\\item_language.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_step_menu.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\src\\main\\res\\layout\\bottom_step_menu.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\debug\\layout\\setup_choose_service.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\src\\main\\res\\layout\\setup_choose_service.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\build\\intermediates\\res\\merged\\debug\\layout\\setup_choose_language.xml",
+        "source": "F:\\new\\newline\\SetupWizardCollection\\meizuguide\\src\\main\\res\\layout\\setup_choose_language.xml"
+    }
+]

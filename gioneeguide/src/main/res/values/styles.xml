@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomRadioBtn">
+        <item name="android:background">@drawable/gn_item_layout_language_checkbox_selector</item>
+        <item name="android:button">@drawable/gn_item_layout_language_checkbox_selector</item>
+    </style>
+
+    <style name="WifiDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>//无标题
+        <item name="android:windowBackground">@null</item>//背景
+        <item name="android:windowIsFloating">true</item>//悬浮
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="connected_status">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/gray_light2</item>
+    </style>
+
+    <style name="connect_ssid">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <!--<item name="android:textStyle">italic</item>-->
+    </style>
+
+    <style name="saved_ssid">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="Dialog_Fullscreen" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+</resources>

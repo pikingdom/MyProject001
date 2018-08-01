@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 弹出框标题颜色 -->
+    <color name="dialog_title_color">#1c1c1c</color>
+    <color name="dialog_content_color">#676c6b</color>
+    <!-- 蓝色背景下标题颜色 -->
+    <color name="myphone_common_title_color1">#00aeff</color>
+    <!-- 统一背景色 -->
+    <color name="myphone_common_bg_color">#f9fafb</color>
+    <!-- 内容颜色 -->
+    <color name="myphone_common_text_color">#303030</color>
+    <!-- 通用头部文字颜色 -->
+    <color name="common_color">#686c6f</color>
+    <color name="common_btn_confirm_text_color">#ffffff</color>
+    <color name="common_btn_cancel_text_color">#707070</color>
+
+
+
+    <color name="statusBarColor">#f4f4f4</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_dark">#fafafa</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff466c90</color>
+    <color name="gray">#ff343434</color>
+    <color name="gray_light">#ff818181</color>
+    <color name="gray_disable">#ff9c999c</color>
+    <color name="green">#ff84ac00</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#ffff4444</color>
+    <color name="data_usage_text_color">#ff476a90</color>
+    <color name="secure_text_color">#ff6f6f71</color>
+    <color name="btn_color">#ff4e7109</color>
+    <color name="btn_text_color">#ffb7b7b7</color>
+    <color name="shadow_color">#ffddfaa1</color>
+    <color name="dark_green_color">#ff84ac00</color>
+    <color name="windowTitlleButtonShadowColor">#0036343a</color>
+    <color name="light_gray">#ff7c7c7c</color>
+    <color name="background_color">#ffffff</color>
+    <color name="title_color">#888888</color>
+    <color name="text_color">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="bbk_dialog_text_color">#ff696969</color>
+    <color name="text_color_middle">#343434</color>
+    <color name="text_color_small">#818181</color>
+    <color name="list_background">#fff1f1f1</color>
+    <color name="timestamp_color">#bf000000</color>
+    <color name="unread_bgcolor">#ffffffff</color>
+    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="siminfo_color">#ffffffff</color>
+    <color name="color_privacy_text">#ff000000</color>
+    <color name="background_black">#ff0f121d</color>
+    <color name="software_textColor_pressed">#999999</color>
+    <color name="software_textColor_unpressed">#00aeff</color>
+    <color name="language_bg_press">#dedede</color>
+
+    <color name="language_select_title">#ff343434</color>
+    <color name="vivo_y79a_line_color">#dedede</color>
+
+    <color name="vivo_y79_backgroup_color">#F4F4F4</color>
+
+</resources>

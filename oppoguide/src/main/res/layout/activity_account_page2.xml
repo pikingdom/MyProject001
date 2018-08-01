@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/welcome_view_bg">
+
+    <RelativeLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin_top">
+
+        <Button
+            android:id="@+id/action_bar_button"
+            android:layout_width="@dimen/action_bar_width"
+            android:layout_height="@dimen/action_bar_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/top_margin_left"
+            android:background="@drawable/actionbar_back_button2" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topPanel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:text="@string/oppo_account"
+        android:textColor="@color/top_text_color"
+        android:textSize="@dimen/top_text_size" />
+
+    <ImageView
+        android:id="@+id/bottom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="@dimen/divider_margin_top"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/account_divide_color" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/bottom_divider"
+        android:divider="@color/account_divide_color"
+        android:dividerHeight="1px"
+        android:overScrollMode="never" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/go_on_text_bottom_margin"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/set_up_later"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/go_on_padding_touch"
+                android:text="@string/setup_later"
+                android:textColor="@color/color_green"
+                android:textSize="@dimen/go_on_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/go_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/go_on_padding_touch"
+                android:text="@string/go_on"
+                android:textColor="@color/color_green"
+                android:textSize="@dimen/go_on_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

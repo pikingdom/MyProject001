@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statusBarColor">
+
+    <RelativeLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/wifi_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/common_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/common_toolbar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/common_title"
+            android:background="@color/light_gray"/>
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/common_title"
+            android:background="@color/white"
+            android:fadingEdge = "none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <include
+                    android:id="@+id/show_wlan_info"
+                    layout="@layout/refresh_wifi_scan_view"/>
+
+                <include
+                    android:id="@+id/show_connected_wifi_info"
+                    layout="@layout/wifi_connected_view"/>
+
+                <RelativeLayout
+                    android:id="@+id/list_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/statusBarColor"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/choose_wifi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:gravity="left"
+                        android:textColor="@color/text_color_small"
+                        android:text="@string/choose_wifi"
+                        android:textSize="14sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"/>
+
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:indeterminate="false"
+                        android:layout_toRightOf="@+id/choose_wifi"
+                        android:indeterminateDrawable="@drawable/progressbar_stytle" />
+
+
+                </RelativeLayout>
+
+                <com.wifi.vivoguide.commonview.ListViewForScrollView
+                    android:id="@+id/wifi_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@null"
+                    android:listSelector="@drawable/language_click_item_blue" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <include layout="@layout/common_bottom_jump_view" />
+
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="25dp"
+    android:background="#f4f4f4">
+
+    <include
+        android:id="@+id/tab_view"
+        layout="@layout/common_tab_view"/>
+
+    <ScrollView
+        android:id="@+id/wifi_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/tab_view"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/static_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/auto_connect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/auto_connect"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <com.wifi.xiaomiguide.SlipButtonView
+                    android:id="@+id/auto_slipbtn"
+                    android:layout_width="53dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/auto_connect" />
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/auto_connect"
+                    android:background="#dedede"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/static_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/phone_hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/phone_hot_spots"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <com.wifi.xiaomiguide.SlipButtonView
+                    android:id="@+id/phone_slipbtn"
+                    android:layout_width="53dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/phone_hot" />
+
+                <View
+                    android:id="@+id/line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/phone_hot"
+                    android:background="#dedede"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/static_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/state_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/state_tips"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/connected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/black_light"
+                    android:text="@string/connected"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/line3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/state_info"
+                    android:background="#dedede"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/static_layout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/signal_strength"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/signal_strength"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/signal_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:layout_marginRight="16dp"
+
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/black_light"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/signal_value"
+                    android:background="#dedede"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/static_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/connect_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/connect_speed"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/connect_speed_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/black_light"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/line4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/connect_speed_value"
+                    android:background="#dedede"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/static_layout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/save_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/safe"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/save_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/black_light"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/line_save_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/save_value"
+                    android:background="#dedede"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/static_layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/ip_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/ip_address"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/ip_address_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/black_light"
+                    android:text="172.17.154.77"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/line5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/ip_address_value"
+                    android:background="#dedede"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/static_layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/subnet_mask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/subnet_mask"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/subnet_mask_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/black_light"
+                    android:text="255.255.255.0"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/line6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/subnet_mask_value"
+                    android:background="#dedede"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/static_layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/router"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:gravity="left"
+                    android:text="@string/router"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/router_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/black_light"
+                    android:text="172.17.154.1"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                layout="@layout/ip_set_view"/>
+
+            <include
+                android:id="@+id/static_set_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                layout="@layout/static_ip_set_view"/>
+
+            <TextView
+                android:id="@+id/modify_wlan"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/delete_wlan_button_bg"
+                android:textColor="@color/gray_light"
+                android:textSize="14sp"
+                android:text="@string/modify_wlan"/>
+
+            <TextView
+                android:id="@+id/delete_wlan"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/delete_wlan_button_bg"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:text="@string/delete_wlan"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

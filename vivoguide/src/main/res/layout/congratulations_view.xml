@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#f4f4f4">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/finish_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/finish_pic"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:textColor="@color/black"
+            android:text="@string/congratulation"
+            android:layout_below="@id/finish_pic"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/text_color_small"
+            android:text="@string/finish_set_tips"
+            android:layout_below="@id/txt"
+            android:layout_centerHorizontal="true"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/start_interchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#2597f2"
+            android:text="@string/start_interchange"
+            android:layout_below="@id/txt2"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/begin_use_btn"-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_above="@+id/test"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@drawable/jump_step_btn_select"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="@string/begin_use_vivo"-->
+        <!--android:textSize="16sp" />-->
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true" />
+    <include layout="@layout/common_bottom_jump_view" />
+</RelativeLayout>

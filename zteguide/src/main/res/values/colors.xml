@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_50">#7f000000</color>
+    <color name="blue">#0185FF</color>
+    <color name="line_dark">#dbdbdb</color>
+    <color name="bottom_text">#333333</color>
+    <color name="my_phone_blue">#0085ff</color>
+    <color name="zte0840_blue">#A3AED1</color>
+
+    <color name="btn_general_normal">#e5e5e5</color>
+    <color name="btn_general_pressed">#1a000000</color>
+
+
+    <color name="lockgp_common_title_bg_color_unclick">#d3d3d3</color>
+    <color name="lockgp_common_title_bg_color_unclick2">#EEEEEE</color>
+    <color name="lockgp_common_title_bg_color_click">#cccccc</color>
+
+    <color name="Amethyst">#5758a5</color>
+    <color name="Fresh_Peach">#dc4c6e</color>
+    <color name="Aqua_Green">#34bdb0</color>
+    <color name="Tiger_lily">#dc5d40</color>
+    <color name="Ocean_Blue">#255aa0</color>
+
+
+    <color name="guide_vip_label_color">#49a1f2</color>
+    <color name="open_lock_txt_color">#999999</color>
+    <color name="sign_in">#ff1daf00</color>
+    <color name="sign_up">#ff007cdb</color>
+
+    <color name="gray_light2">#737373</color>
+    <color name="light_black">#202020</color>
+    <color name="zx_light_blue">#007dff</color>
+    <color name="zx_light_blue_20">#33007dff</color>
+    <color name="zx_dark_blue">#059ff8</color>
+    <color name="zx_bottom">#ededed</color>
+    <color name="gray_shen_fen">#9a9a9a</color>
+    <color name="list_item_bg_press">#fff4f4f4</color>
+
+</resources>

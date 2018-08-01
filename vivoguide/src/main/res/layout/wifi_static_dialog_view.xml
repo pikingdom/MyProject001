@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/wifi_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <RelativeLayout
+            android:id="@+id/wifi_info_input_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip" >
+
+            <TextView
+                android:id="@+id/static_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/static_edit"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_below="@+id/static_title"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/bg_input"
+                android:gravity="center_vertical"
+                android:textColor="#1b1b1b"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/line_static"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/wifi_scrollview"
+        android:background="#dedede"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/line_static"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/static_sure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="3dip"
+            android:text="@string/common_button_confirm"
+            android:textColor="#1b1b1b"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#dedede" />
+
+        <TextView
+            android:id="@+id/static_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="3dip"
+            android:text="@string/common_button_cancel"
+            android:textColor="#1b1b1b"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

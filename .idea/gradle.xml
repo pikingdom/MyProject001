@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/gioneeguide" />
+            <option value="$PROJECT_DIR$/hissenseguide" />
+            <option value="$PROJECT_DIR$/huaweiguide" />
+            <option value="$PROJECT_DIR$/meizuguide" />
+            <option value="$PROJECT_DIR$/oppoguide" />
+            <option value="$PROJECT_DIR$/setupwizard_lib" />
+            <option value="$PROJECT_DIR$/vivoguide" />
+            <option value="$PROJECT_DIR$/xiaomiguide" />
+            <option value="$PROJECT_DIR$/zteguide" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

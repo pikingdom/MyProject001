@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/connect_wlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="32dp"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:text="@string/connect_wlan"
+        android:textSize="20sp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/connect_wlan"
+        android:background="#dedede"/>
+
+    <RelativeLayout
+        android:id="@+id/wifi_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/line2"
+        android:layout_below="@id/line">
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@color/transparent"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_above="@+id/bottom_layout"
+        android:background="#dedede"/>
+
+    <include
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        layout="@layout/common_bottom_view"
+        android:layout_alignParentBottom="true">
+
+    </include>
+
+</RelativeLayout>

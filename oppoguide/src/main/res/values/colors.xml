@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="account_divide_color">#ffdedede</color>
+    <color name="account_smalltext_color">#898989</color>
+    <color name="color_gray">#c2c2c2</color>
+    <color name="color_green">#2bc896</color>
+    <color name="top_text_color">#363636</color>
+    
+    <color name="welcome_view_bg">#fff5f5f5</color>
+
+</resources>

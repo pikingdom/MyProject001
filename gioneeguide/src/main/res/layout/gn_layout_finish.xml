@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gn_sw_main_background_color">
+
+    <LinearLayout
+        android:id="@+id/gn_sw_layout_complete_logo_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gn_sw_layout_complete_congradulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/gn_sw_string_complete_logo_text_title"
+            android:textColor="@color/gn_sw_layout_orange_color"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/gn_sw_layout_complete_logo_little_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="@string/gn_sw_string_complete_logo_text_content"
+            android:textColor="@color/gn_sw_layout_orange_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gn_sw_layout_complete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/gn_green_btn"
+        android:text="@string/gn_sw_string_complete_btn_text"
+        android:textColor="@color/gn_sw_layout_white_color" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gn_sw_layout_complete_btn"
+        android:layout_below="@+id/gn_sw_layout_complete_logo_container"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="67dp"
+        android:fadingEdge="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                android:id="@+id/gn_sw_layout_user_plan_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/gn_sw_string_user_feed"
+                android:textColor="@color/gn_sw_layout_complete_first_title_color"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/gn_sw_layout_user_plan_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/gn_sw_layout_user_plan_text"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/gionee_common_checkbox_selector"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/gn_sw_user_plan_content_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gn_sw_layout_user_plan_text"
+                android:layout_marginTop="10dp"
+                android:lineSpacingMultiplier="1.5"
+                android:singleLine="false"
+                android:text="@string/gn_sw_string_user_text"
+                android:textColor="@color/gn_sw_layout_wifi_net_hint_text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/gn_sw_layout_security_switch_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/gn_sw_user_plan_content_text"
+                android:layout_marginTop="10dp"
+                android:checked="true"
+                android:text="@string/gn_sw_string_security_service"
+                android:textColor="@color/gn_sw_layout_complete_first_title_color"
+                android:button="@drawable/gionee_common_checkbox_selector"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/gn_sw_layout_security_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/gn_sw_layout_security_switch_textview"
+                android:layout_below="@+id/gn_sw_user_plan_content_text"
+                android:checked="true"
+                android:button="@drawable/gionee_common_checkbox_selector" />
+
+            <TextView
+                android:id="@+id/gn_sw_layout_complete_system_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gn_sw_layout_security_switch"
+                android:layout_marginTop="10dp"
+                android:text="@string/gn_sw_string_system_notification"
+                android:textColor="@color/gn_sw_layout_complete_first_title_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/gn_sw_layout_complete_system_notification_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gn_sw_layout_complete_system_notification"
+                android:layout_marginTop="8dp"
+                android:lineSpacingMultiplier="1.2"
+                android:singleLine="false"
+                android:text="@string/gn_sw_string_system_notification_text"
+                android:textColor="@color/gn_sw_layout_wifi_net_hint_text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/gn_sw_layout_complete_system_upgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gn_sw_layout_complete_system_notification_text"
+                android:layout_marginTop="20dp"
+                android:text="@string/gn_sw_string_system_upgrade"
+                android:textColor="@color/gn_sw_layout_complete_first_title_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/gn_sw_layout_complete_upgrade_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gn_sw_layout_complete_system_upgrade"
+                android:layout_marginTop="8dp"
+                android:lineSpacingMultiplier="1.5"
+                android:singleLine="false"
+                android:text="@string/gn_se_string_system_upgrade_text"
+                android:textColor="@color/gn_sw_layout_wifi_net_hint_text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/gn_sw_layout_complete_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/gn_sw_layout_complete_upgrade_text"
+                android:layout_marginTop="10dp"
+                android:text="@string/gn_sw_string_others"
+                android:textColor="@color/gn_sw_layout_complete_first_title_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/gn_sw_layout_complete_others_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gn_sw_layout_complete_others"
+                android:layout_marginTop="10dp"
+                android:lineSpacingMultiplier="1.5"
+                android:singleLine="false"
+                android:text="@string/gn_sw_string_others_text"
+                android:textColor="@color/gn_sw_layout_wifi_net_hint_text_color"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

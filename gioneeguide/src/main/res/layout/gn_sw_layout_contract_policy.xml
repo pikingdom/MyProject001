@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/gn_sw_layout_contract_content_marginleft"
+    android:paddingRight="@dimen/gn_sw_layout_contract_content_marginright">
+
+    <TextView
+        android:id="@+id/gn_sw_layout_contract_policy_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/gn_contract_arrow"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:paddingBottom="17dp"
+        android:paddingTop="17dp"
+        android:textColor="@color/gn_sw_layout_contracr_content_title_textColor"
+        android:textSize="@dimen/gn_sw_layout_contract_content_title_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gn_sw_layout_listview_divider_color" />
+</LinearLayout>

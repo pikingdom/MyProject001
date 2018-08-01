@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/gn_control_corner_material" />
+        <solid android:color="@color/gn_button_welcome_bg_color" />
+        <padding android:left="@dimen/gn_button_padding_horizontal_material" android:top="@dimen/gn_button_padding_vertical_material" android:right="@dimen/gn_button_padding_horizontal_material" android:bottom="@dimen/gn_button_padding_vertical_material" />
+    </shape>
+</inset>
