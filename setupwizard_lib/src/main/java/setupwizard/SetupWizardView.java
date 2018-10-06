@@ -15,6 +15,7 @@ import com.wifi.vivoguide.wifi.Activity.VivoGuidEntranceView;
 import com.wifi.vivoguide.y79.VivoY79GuideMainView;
 import com.wifi.vivoguide.y79a.VivoY79AGuideMainView;
 import com.wifi.xiaomiguide.View.MIUIGuideMainView;
+import com.wifi.xiaomiguide.miuiv10.MIUI_V10GuideMainView;
 import com.wifi.xiaomiguide.miuiv9.MIUI_V9GuideMainView;
 import com.wifi.xiaomiguide.miuiv9.PhonOSUtil;
 import com.zteguidedemo.v0840.ZTEGuideMainView;
@@ -69,6 +70,8 @@ public class SetupWizardView {
             String systemPropertiesOS = PhonOSUtil.getPhoneOS(Build.BRAND);
             if(systemPropertiesOS.contains("V9")){
                 result = new MIUI_V9GuideMainView(activity,iGuideCallback);
+            }else if(systemPropertiesOS.contains("V10")){
+                result = new MIUI_V10GuideMainView(activity,iGuideCallback);
             }else {
                 result = new MIUIGuideMainView(activity,iGuideCallback);
             }
