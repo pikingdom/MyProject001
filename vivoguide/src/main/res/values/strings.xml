@@ -129,6 +129,13 @@
     <string name="vivo_finish_welcom_use">Welcome</string>
     <string name="vivo_finish_start_use">Use Now</string>
 
+    <string name="vivo_finge_action_title">About navigation gestures</string>
+    <string name="vivo_finge_action_1_text1">Control Center</string>
+    <string name="vivo_finge_action_1_text2">System navigation function </string>
+    <string name="vivo_finge_action_1_text3">Swipe up in the three areas at the bottom of the interface to call up the control center, return to standby, and return to the previous interface. </string>
+
+    <string name="vivo_finge_action_2_text1">Call up the background application list </string>
+    <string name="vivo_finge_action_2_text2">Swipe up and stay in the middle area at the bottom of the interface to bring up the background application list. </string>
 </resources>
 
 

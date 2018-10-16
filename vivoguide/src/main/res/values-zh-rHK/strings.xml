@@ -125,4 +125,11 @@
     <string name="vivo_finish_welcom_use">歡迎</string>
     <string name="vivo_finish_start_use">開始使用</string>
 
+    <string name="vivo_finge_action_title">關於導航手勢</string>
+    <string name="vivo_finge_action_1_text1">控制中心</string>
+    <string name="vivo_finge_action_1_text2">系統導航功能</string>
+    <string name="vivo_finge_action_1_text3">在界面底部三個區域向上滑動，可分別調出控制中心、返回待機、返回上一級界面。 </string>
+
+    <string name="vivo_finge_action_2_text1">調出後台應用列表</string>
+    <string name="vivo_finge_action_2_text2">在界面底部的中間區域向上滑動並停留，可調出後台應用列表。 </string>
 </resources>
