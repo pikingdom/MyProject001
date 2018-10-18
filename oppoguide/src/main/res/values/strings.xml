@@ -55,4 +55,7 @@
     <string name="agree">agree</string>
     <string name="disagree">disagree</string>
     <string name="back">back</string>
+
+    <string name="r15_complete_1">Welcome to use</string>
+    <string name="r15_complete_2">Start the wonderful journey of ColorOS</string>
 </resources>

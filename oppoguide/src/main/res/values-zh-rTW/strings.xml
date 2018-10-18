@@ -46,4 +46,7 @@
     <string name="agree">同意</string>
     <string name="disagree">不同意</string>
     <string name="back">返回</string>
+
+    <string name="r15_complete_1">歡迎使用</string>
+    <string name="r15_complete_2">開啟ColorOS的精彩之旅</string>
 </resources>

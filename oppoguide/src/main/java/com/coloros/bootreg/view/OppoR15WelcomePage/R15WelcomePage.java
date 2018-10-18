@@ -1,4 +1,4 @@
-package com.coloros.bootreg.view;
+package com.coloros.bootreg.view.OppoR15WelcomePage;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -14,13 +14,21 @@ import com.bootreg.IGuideCallback;
 import com.bootreg.IGuideView;
 import com.coloros.bootreg.util.AppInfo;
 import com.coloros.bootreg.util.Constants;
+import com.coloros.bootreg.view.AccountPage;
+import com.coloros.bootreg.view.CompletePage;
+import com.coloros.bootreg.view.FingerprintPage;
+import com.coloros.bootreg.view.GuidePage;
+import com.coloros.bootreg.view.IWelcomePage;
+import com.coloros.bootreg.view.OnOpListener;
+import com.coloros.bootreg.view.SelectLanguagePage;
+import com.coloros.bootreg.view.StatementPage;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
 /**
  * Created by Administrator on 2017/7/15.
  */
-public class WelcomePage extends LinearLayout implements OnOpListener, IWelcomePage, IGuideView {
+public class R15WelcomePage extends LinearLayout implements OnOpListener, IWelcomePage, IGuideView {
     private Activity activity;
     private State state = State.lang;
 
@@ -41,13 +49,13 @@ public class WelcomePage extends LinearLayout implements OnOpListener, IWelcomeP
         wifi, finger
     }
 
-    public WelcomePage(Context context, IGuideCallback listener) {
+    public R15WelcomePage(Context context, IGuideCallback listener) {
         super(context);
         this.listener = listener;
         init(context);
     }
 
-    public WelcomePage(Context context, AttributeSet attr) {
+    public R15WelcomePage(Context context, AttributeSet attr) {
         super(context, attr);
         init(context);
     }
@@ -57,15 +65,15 @@ public class WelcomePage extends LinearLayout implements OnOpListener, IWelcomeP
     }
 
     GuidePage currGuidePage;
-    SelectLanguagePage languagePage;
+    R15SelectLanguagePage languagePage;
     FingerprintPage fingerPage;
-    AccountPage accountPage;
-    StatementPage protocolPage;
-    StatementPage secretPage;
-    CompletePage completePage;
+    R15AccountPage accountPage;
+    R15StatementPage protocolPage;
+    R15StatementPage secretPage;
+    R15CompletePage completePage;
 
     private void init(Context context) {
-        languagePage = new SelectLanguagePage(context);
+        languagePage = new R15SelectLanguagePage(context);
         addPageView(languagePage);
         setState(State.lang);
     }
@@ -214,31 +222,31 @@ public class WelcomePage extends LinearLayout implements OnOpListener, IWelcomeP
 
     //用户隐私
     void jumpUserSecret(Context context) {
-        secretPage = new StatementPage(context, StatementPage.FLAG_SECRET);
+        secretPage = new R15StatementPage(context, R15StatementPage.FLAG_SECRET);
         addPageView(secretPage);
     }
 
     //用户协议
     void jumpUserProtocol(Context context) {
-        protocolPage = new StatementPage(context, StatementPage.FLAG_PROTOCOL);
+        protocolPage = new R15StatementPage(context, R15StatementPage.FLAG_PROTOCOL);
         addPageView(protocolPage);
     }
 
     //完成
     void jumpCompletePage(Context context) {
-        completePage = new CompletePage(context);
+        completePage = new R15CompletePage(context);
         addPageView(completePage);
     }
 
 
     void jumpAccountPage() {
-        accountPage = new AccountPage(getContext());
+        accountPage = new R15AccountPage(getContext());
         addPageView(accountPage);
     }
 
     private void addPageView(GuidePage page) {
 
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        LayoutParams lp = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         page.setWelcomePage(this);
         page.setOnOPListener(this);
         if (currGuidePage != null) {
