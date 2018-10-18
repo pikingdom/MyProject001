@@ -5,8 +5,8 @@ import android.os.Build;
 import android.view.View;
 
 import com.bootreg.IGuideCallback;
+import com.coloros.bootreg.view.OppoR15WelcomePage.R15WelcomePage;
 import com.coloros.bootreg.view.WelcomePage;
-import com.coloros.bootreg.view.view2.WelcomePage2;
 import com.gionee.setupwizard.s10bl.GioneeGuideMainView;
 import com.gionee.setupwizard.view.GioneeSetupWizardView;
 import com.hissenseguide.HisenseGuideMainView;
@@ -44,10 +44,18 @@ public class SetupWizardView {
             WelcomePage welcomePage = new WelcomePage(activity, iGuideCallback);
             welcomePage.setActivity(activity);
             result = welcomePage;
+        } else if(machineName.contains("pacm00") &&  carrier.contains("oppo")){
+            //oppo r15
+            R15WelcomePage welcomePage = new R15WelcomePage(activity, iGuideCallback);
+            welcomePage.setActivity(activity);
+            result = welcomePage;
         } else if(machineName.contains("oppo") || carrier.contains("oppo")) {
-            WelcomePage2 welcomePage2 = new WelcomePage2(activity, iGuideCallback);
-            welcomePage2.setActivity(activity);
-            result = welcomePage2;
+//            WelcomePage2 welcomePage2 = new WelcomePage2(activity, iGuideCallback);
+//            welcomePage2.setActivity(activity);
+//            result = welcomePage2;
+            R15WelcomePage welcomePage = new R15WelcomePage(activity, iGuideCallback);
+            welcomePage.setActivity(activity);
+            result = welcomePage;
         } else if (machineName.contains("vivo") || carrier.contains("vivo")) {
             if((machineName.contains("y79a"))){
                 result =  new VivoY79AGuideMainView(activity,iGuideCallback);
