@@ -89,7 +89,12 @@ public class R15SelectLanguagePage extends GuidePage implements View.OnClickList
     @Override
     public void onClick(View view) {
         //setConfig(this.mPosition);
-        onOPListener.OnNext(this);
+        try {
+            welcomePage.callSystemWifiPage();
+        } catch (Exception e) {
+            e.printStackTrace();
+            onOPListener.OnNext(this);
+        }
         return;
     }
 
